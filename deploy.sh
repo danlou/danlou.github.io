@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-PELICAN_DIR="~/projects/pelican-blog"
-GHPAGES_DIR="~/projects/danlou.github.io"
+PELICAN_DIR="~/projects/pelican-blog/"
+GHPAGES_DIR="~/projects/danlou.github.io/"
 
 cd $PELICAN_DIR
 pelican content -s publishconf.py
