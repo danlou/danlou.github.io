@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alipio Jorge | Daniel Loureiro</title>
+    <link>/authors/alipio-jorge/</link>
+      <atom:link href="/authors/alipio-jorge/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alipio Jorge</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Alipio Jorge</title>
+      <link>/authors/alipio-jorge/</link>
+    </image>
+    
+    <item>
+      <title>Language Modelling Makes Sense</title>
+      <link>/publication/a2avecs_fever/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/a2avecs_fever/</guid>
+      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
+&lt;p&gt;and an image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/proxy/1*YgtCXuRGmPfPg2PogXVCfQ.png&#34; alt=&#34;Drag Racing&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Modelling Makes Sense</title>
+      <link>/publication/lmms_acl19/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/lmms_acl19/</guid>
+      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
+&lt;p&gt;and an image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/proxy/1*YgtCXuRGmPfPg2PogXVCfQ.png&#34; alt=&#34;Drag Racing&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Modelling Makes Sense</title>
+      <link>/publication/medlinker_ecir20/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/medlinker_ecir20/</guid>
+      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
+&lt;p&gt;and an image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/proxy/1*YgtCXuRGmPfPg2PogXVCfQ.png&#34; alt=&#34;Drag Racing&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Modelling Makes Sense</title>
+      <link>/publication/wic_semdeep5/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/wic_semdeep5/</guid>
+      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
+&lt;p&gt;and an image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/proxy/1*YgtCXuRGmPfPg2PogXVCfQ.png&#34; alt=&#34;Drag Racing&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
