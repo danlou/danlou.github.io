@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,17 +15,17 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+      <description>&lt;p&gt;I&#39;m a PhD candidate researching Natural Language Processing (NLP) at UPorto, advised by Prof. Alípio Jorge. I&#39;ve been entranced with NLP since being fooled (briefly) by an ELIZA chatbot in my impressionable early teens. After some years as a founder of an NLP startup, I returned to academia to focus on research. My goal is to help bridge neural language models with probabilistic rule-based reasoning towards more robust and interpretable NLP.&lt;/p&gt;
+&lt;p&gt;I&#39;m also a researcher at INESCTEC-LIAAD working on biomedical applications of NLP. In my free time I enjoy spending time with my twin sons, reading non-fiction and travelling.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Alipio Jorge</title>
+      <title>Alípio Jorge</title>
       <link>/authors/alipio-jorge/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/authors/alipio-jorge/</guid>
       <description></description>
     </item>

@@ -2,8 +2,8 @@
   "name": "Daniel Loureiro",
   "short_name": "Daniel Loureiro",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "hsl(200, 100%, 50%)",
+  "background_color": "hsl(200, 100%, 50%)",
   "icons": [{
     "src": "../img/icon-192.png",
     "sizes": "192x192",

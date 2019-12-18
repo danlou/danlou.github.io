@@ -5,12 +5,52 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>Biomedical</title>
+      <link>/tags/biomedical/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/biomedical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entity Linking</title>
+      <link>/tags/entity-linking/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/entity-linking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UMLS</title>
+      <link>/tags/umls/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/umls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSD</title>
+      <link>/tags/wsd/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/wsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WiC</title>
+      <link>/tags/wic/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/wic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BERT</title>
@@ -29,18 +69,18 @@
     </item>
     
     <item>
-      <title>WSD</title>
-      <link>/tags/wsd/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/wsd/</guid>
+      <title>Relational Embeddings</title>
+      <link>/tags/relational-embeddings/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/relational-embeddings/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/source-themes/</guid>
+      <title>SRL</title>
+      <link>/tags/srl/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/srl/</guid>
       <description></description>
     </item>
     
