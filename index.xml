@@ -75,6 +75,14 @@
     </item>
     
     <item>
+      <title>Language Modelling Makes Sense</title>
+      <link>/publication/lmms_acl19/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/lmms_acl19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
       <link>/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -242,18 +250,6 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
       <link>/publication/a2avecs_fever/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/publication/a2avecs_fever/</guid>
-      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
-&lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
-&lt;p&gt;and an image.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/proxy/1*YgtCXuRGmPfPg2PogXVCfQ.png&#34; alt=&#34;Drag Racing&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Language Modelling Makes Sense</title>
-      <link>/publication/lmms_acl19/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/lmms_acl19/</guid>
       <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 &lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
 &lt;p&gt;and an image.&lt;/p&gt;

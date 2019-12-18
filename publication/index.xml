@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
@@ -14,21 +14,17 @@
     
     <item>
       <title>Language Modelling Makes Sense</title>
-      <link>/publication/a2avecs_fever/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/a2avecs_fever/</guid>
-      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
-&lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
-&lt;p&gt;and an image.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/proxy/1*YgtCXuRGmPfPg2PogXVCfQ.png&#34; alt=&#34;Drag Racing&#34;&gt;&lt;/p&gt;
-</description>
+      <link>/publication/lmms_acl19/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/lmms_acl19/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Language Modelling Makes Sense</title>
-      <link>/publication/lmms_acl19/</link>
+      <link>/publication/a2avecs_fever/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/lmms_acl19/</guid>
+      <guid>/publication/a2avecs_fever/</guid>
       <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 &lt;p&gt;Here&#39;s some more text.&lt;/p&gt;
 &lt;p&gt;and an image.&lt;/p&gt;
