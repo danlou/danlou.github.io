@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSD | Daniel Loureiro</title>
+    <link>/tags/wsd/</link>
+      <atom:link href="/tags/wsd/index.xml" rel="self" type="application/rss+xml" />
+    <description>WSD</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>WSD</title>
+      <link>/tags/wsd/</link>
+    </image>
+    
+    <item>
+      <title>MedLinker: Medical Entity Recognition and Linking combining Neural Language Models with Approximate Dictionary Matching</title>
+      <link>/publication/medlinker_ecir20/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/medlinker_ecir20/</guid>
+      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;More details coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LIAAD at SemDeep-5 Challenge: Word-in-Context (WiC)</title>
+      <link>/publication/wic_semdeep5/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/wic_semdeep5/</guid>
+      <description>&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;Link to the WiC task &lt;a href=&#34;https://pilehvar.github.io/wic/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation</title>
+      <link>/publication/lmms_acl19/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/lmms_acl19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
