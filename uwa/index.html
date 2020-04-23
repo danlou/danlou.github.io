@@ -1,69 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Minimal Resume Template</title>
+	<title>UWA (Unambiguous Word Annotations) - Dataset for WordNet Sense Embeddings</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154847184-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	function trackOutboundLink(url) {
+		gtag('event', 'click', {
+			'event_category': 'outbound',
+			'event_label': url,
+			'transport_type': 'beacon',
+			'event_callback': function () {
+			document.location = url;
+			}
+		});
+		console.debug("Outbound link clicked: " + url);
+	}
+	function onClickCallback(event) {
+		if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+		return;
+		}
+		trackOutboundLink(event.target);  
+	}
+	gtag('js', new Date());
+	gtag('config', 'UA-154847184-1', {});
+	document.addEventListener('click', onClickCallback, false);
+	</script>
 </head>
 <body>
 
 	<div class="container">
 		<div class="hero">
-			<h1 class="name"><strong>Abbie</strong> Bradley</h1>
-			<span class="job-title">Developer</span>
-			<span class="email">abbie.bradley@gmail.com</span>
-
-			<h2 class="lead">Development and design of web applications 
-for startups and large companies</h2>
+			<h1 class="name"><strong>UWA</strong> Unambiguous Word Annotations</h1>
+			<span class="email"><a href="http://danlou.github.io/" target="_blank">Daniel Loureiro</a> and <a href="http://josecamachocollados.com/" target="_blank">Jose Camacho-Collados</a></span>
+			<h2 class="lead">Annotations of unambiguous words in WordNet for improved Sense Embeddings</h2>
+			<a href="" target="_blank"><span class="job-title">Paper</span></a>
+			<h1 class="paper">Don't Neglect the Obvious: On the Role of Unambiguous Words in Word Sense Disambiguation</h1>
 		</div>
 	</div>
 
-<!-- Skills and intrest section -->
+	<!-- Skills and intrest section -->
 	<div class="container">
 
 		<div class="sections">
-			<h2 class="section-title">Skills</h2>
+			<h2 class="section-title">Datasets</h2>
 
 			<div class="list-card">
-				<span class="exp">+ 5 years</span>
 				<div>
-					<h3>Object programming & frameworks</h3>
-					<span>PHP, Symfony, Laravel, Silex, …</span>
+					<h3>XML Format (w/SemCor)</h3>
+					<p><a href="https://drive.google.com/open?id=1qUmApNs0TPI4RPjXW2aZzIfoLIZia0Nc">SC+UWA 10 (recommended) (100 MB)</a></p>
+					<p><a href="https://drive.google.com/open?id=1s4xp4xHCwVlOy02Z288lX7Qd1P8IOdZK">SC+UWA 1 (19 MB)</a></p>
 				</div>
 			</div>
 			
 			<div class="list-card">
-				<span class="exp">+ 3 years</span>
 				<div>
-					<h3>Design integration</h3>
-					<span>Style and tools, JS Frameworks</span>
+					<h3>JL Format</h3>
+					<p><a href="https://drive.google.com/open?id=1UdIJOZyZjV8IlDvjQSFjwGD2EsFU14I0">UWA 10 (75 MB)</a></p>
+					<p><a href="https://drive.google.com/open?id=10fkApvgTEIrkDKC7Vs77l9tSe3brWwaC">UWA 100 (507 MB)</a></p>
 				</div>
 			</div>	
-					
-			<div class="list-card">
-				<span class="exp">+ 6 years</span>
-				<div>
-					<h3>Linux</h3>
-					<span>Scripting, Servers management and protocols, Automation</span>
-				</div>
-			</div>
-
 
 		</div>
 		<div class="sections">
-				<h2 class="section-title">Interests</h2>
+				<h2 class="section-title">Embeddings</h2>
 				
 				<div class="list-card">
 					<div>
-						<h3>Scripting languages</h3>
-						<span>PHP, JS, Bash, Python</span>
+						<h3>RoBERTa (large)</h3>
+						<p><a href="https://drive.google.com/open?id=1FttGUXG3Q46HsAFxn-G8VhdU4QEThEgT">SC+UWA10 Prop. (all sensekeys) (666 MB)</a></p>
+						<p><a href="https://drive.google.com/open?id=1z0ESiXJJGIz3_1kQx-Zjm9S68NspTemX">SC+UWA10 Prop. (all synsets) (391 MB)</a></p>
+						<p><a href="https://drive.google.com/open?id=1UATPaXK21v3h2K_BFqcgQPK6rT6kYGa5">SC+UWA10 (XX,XXX sensekeys) (498 MB)</a></p>
 					</div>
-				</div>	
+				</div>
 
 				<div class="list-card">
 					<div>
-						<h3>Hacking</h3>
-						<span>Linux, Crawlers, Bots, Network</span>
+						<h3>BERT (large-cased)</h3>
+						<p><a href="https://drive.google.com/open?id=1X4VzX7Am8KVDTDmP6fJTbP_HEPKbzSSc">SC+UWA10 Prop. (all sensekeys) (648 MB)</a></p>
+						<p><a href="https://drive.google.com/open?id=184Z8eD4i9lPAHc4VXDULnkWObcgz_cZ0">SC+UWA10 (XX,XXX sensekeys) (484 MB)</a></p>
 					</div>
 				</div>		
 		</div>
@@ -75,104 +95,197 @@ for startups and large companies</h2>
 		
 		<div class="card">
 			<div class="skill-level">
-				<span>+</span>
-				<h2>60</h2>
+				<h2>80</h2>
+				<span>%</span>
 			</div>
 
 			<div class="skill-meta">
-				<h3>Projects</h3>
-				<span>Adapting and creating solutions for customer's needs</span>
+				<h3>WordNet Coverage</h3>
+				<span>With SemCor, increases coverage from 30% to 80% of WordNet 3.0 sensekeys.</span>
 			</div>
 		</div>
-
 			
 		<div class="card">
 			<div class="skill-level">
-				<h2>50</h2>
-				<span>%</span>
+				<h2>1.1</h2>
+				<span>M</span>
 			</div>
 
 			<div class="skill-meta">
-				<h3>Web</h3>
-				<span>Applications development integrating third-party services and mobile client(s)</span>
+				<h3>Annotations</h3>
+				<span>Compiled by processing over 40GB of text from Wikipedia and OpenWebText.</span>
 			</div>
 		</div>
 
-			
-		<div class="card">
-			<div class="skill-level">
-				<h2>30</h2>
-				<span>%</span>
-			</div>
-
-			<div class="skill-meta">
-				<h3>Technical solutions</h3>
-				<span>Such as web services, scripts, configurations</span>
-			</div>
-		</div>
+	</div>
 
 
-		<div class="card">
-			<div class="skill-level">
-				<h2>20</h2>
-				<span>%</span>
-			</div>
-
-			<div class="skill-meta">
-				<h3>Leading</h3>
-				<span>Web projects and ensure the quality of delivery</span>
-			</div>
-		</div>
-
+	<div class="container">
+		<ol class="timeline">
+			<p class="line">T-SNE comparison for Synset Embeddings that belong to the 'noun.food' supersense <span class="line_desc">RoBERTa Large, Propagated for full coverage</span> </p>
+		</ol>
+		<iframe src="tsne/noun.food_500px.html" style="border:none;width:96%;height:520px;margin-left:2%;margin-right:2%;margin-top:-80px;"></iframe>
 	</div>
 
 	<!-- Timeeline -->
 
 	<div class="container">
 		<ol class="timeline">
+		<p class="line">T-SNE comparisons for all Synset Embeddings grouped by WordNet supersenses <span class="line_desc">RoBERTa Large, Propagated for full coverage</span> </p>
 		  <li>
-		    <p class="line">Experiences</p>
-		    <span class="point"></span>
-		    <p class="description">
-		      Lead Developer @Geronimo
-		    </p>
-		    <span class="date">Today - Apr. 2016</span>
-		  </li>
+			<!-- <span class="point"></span> -->
+			
+		    <p class="description"><a href="tsne/adj.all.html" target="_blank">adj.all</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/adj.pert.html" target="_blank">adj.pert</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
 
-		  <li>
-		    <span class="point"></span>
-		    <p class="description">
-		      Freelance
-		    </p>
-		    <span class="date">Apr. 2016 - Sep. 2015</span>
-		  </li>
+		    <p class="description"><a href="tsne/adj.ppl.html" target="_blank">adj.ppl</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+  
+		    <p class="description"><a href="tsne/adv.all.html" target="_blank">adv.all</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.act.html" target="_blank">noun.act</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
 
-		  		  <li>
-		    <p class="line">Education</p>
-		    <span class="point"></span>
-		    <p class="description">
-		      DUT "Métiers du multimédia et de l'internet"
-		    </p>
-		    <span class="date">2015 - 2013</span>
-		  </li>
+		    <p class="description"><a href="tsne/noun.animal.html" target="_blank">noun.animal</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
 
-		  		  <li>
-		    <span class="point"></span>
-		    <p class="description">
-		      Art & Design studies
-		    </p>
-		    <span class="date">2013 - 2008</span>
+		    <p class="description"><a href="tsne/noun.artifact.html" target="_blank">noun.artifact</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.attribute.html" target="_blank">noun.attribute</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.body.html" target="_blank">noun.body</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+			<p class="description"><a href="tsne/noun.cognition.html" target="_blank">noun.cognition</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.communication.html" target="_blank">noun.communication</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+		</li>
+		
+		<li>
+			<!-- <span class="point"></span> -->
+			<p class="description"><a href="tsne/noun.event.html" target="_blank">noun.event</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.feeling.html" target="_blank">noun.feeling</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.food.html" target="_blank">noun.food</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.group.html" target="_blank">noun.group</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+			<p class="description"><a href="tsne/noun.location.html" target="_blank">noun.location</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.motive.html" target="_blank">noun.motive</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.object.html" target="_blank">noun.object</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.person.html" target="_blank">noun.person</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.phenomenon.html" target="_blank">noun.phenomenon</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.possession.html" target="_blank">noun.possession</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+			<p class="description"><a href="tsne/noun.process.html" target="_blank">noun.process</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+		</li>
+		
+		<li>
+			<!-- <span class="point"></span> -->
+			<p class="description"><a href="tsne/noun.quantity.html" target="_blank">noun.quantity</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+	
+			<p class="description"><a href="tsne/noun.relation.html" target="_blank">noun.relation</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.shape.html" target="_blank">noun.shape</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.state.html" target="_blank">noun.state</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.substance.html" target="_blank">noun.substance</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/noun.time.html" target="_blank">noun.time</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/noun.Tops.html" target="_blank">noun.Tops</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/verb.body.html" target="_blank">verb.body</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.change.html" target="_blank">verb.change</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.cognition.html" target="_blank">verb.cognition</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/verb.communication.html" target="_blank">verb.communication</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+		</li>
+		
+		<li>
+			<!-- <span class="point"></span> -->
+			<p class="description"><a href="tsne/verb.competition.html" target="_blank">verb.competition</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+			<p class="description"><a href="tsne/verb.consumption.html" target="_blank">verb.consumption</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+	
+			<p class="description"><a href="tsne/verb.contact.html" target="_blank">verb.contact</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.creation.html" target="_blank">verb.creation</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.emotion.html" target="_blank">verb.emotion</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/verb.motion.html" target="_blank">verb.motion</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/verb.perception.html" target="_blank">verb.perception</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.possession.html" target="_blank">verb.possession</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
+		    <p class="description"><a href="tsne/verb.social.html" target="_blank">verb.social</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.stative.html" target="_blank">verb.stative</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+			
+		    <p class="description"><a href="tsne/verb.weather.html" target="_blank">verb.weather</a></p>
+			<span class="date">14,435 synsets (58% vs. 67% inferred)</span>
+
 		  </li>
 		</ol>
 
 	</div>
 
-
-	<br><br>
-
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 	<footer class="container">
-		<span style="font-size: 16px; margin-top: ">Coded by <a href="https://newtodesign.com/">New to design </a> Designed by <a href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas Meuzard</a></span>
+		<span style="font-size: 16px; margin-top: ">Adapted from <a href="https://newtodesign.com/">New to design </a> Designed by <a href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas Meuzard</a></span>
 	</footer>
 
 
