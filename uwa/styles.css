@@ -1,17 +1,7 @@
-/* https://newtodesing.com/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-
-
 /*Load google font*/
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-
-
 /* Reset Styles */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,7 +18,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: inherit;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -37,18 +27,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-a{
+a {
 	text-decoration: none;
 	text-transform: none;
 	color: #4A90E2;
 }
-
+a:hover {
+	color: #175DAF
+}
 body {
-	line-height: 1;
+	line-height: 1.4;
 	font-family: lato, ubuntu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
 	text-rendering : optimizeLegibility;
 	-webkit-font-smoothing : antialiased;
-	font-size: 19px;
+	font-size: 10px;
+	font-weight: 400;
 	background-color: #FEFEFE;
 	color: #04143A;
 }
@@ -67,409 +60,296 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-p {
-	color: #15171a;
-	font-size: 17;
-	line-height: 31px;
-}
-
 strong {
-	font-weight: 600;
+	font-weight: 700;
 }
-
-div , footer {
+em {
+	font-style: italic;
+}
+div, footer {
 	box-sizing: border-box;
 }
-
 /* Reset ends */
 
-
-/*Hero section*/
-
-.container {
-	max-width: 1100px;
+/*  Mobile first */
+main {
 	height: auto;
-	margin: 60px auto;
+	margin: 0 0.8em;
+	max-width: 1200px;
 }
-
-.hero {
-	margin: 50px auto; 
-	position: relative;
-}
-
-h1.name {
-	font-size: 55px;
+h1 {
+	font-size: 2em;
+	padding: 0.8em 0;
 	font-weight: 300;
-	display: inline-block;
 }
-
-h1.paper {
-	display: inline-block;
-}
-
-.job-title {
-	/* vertical-align: top; */
-	background-color: #D9E7F8;
-	color: #4A90E2;
-	font-weight: 600;
-	/* margin-top: 5px; */
-	/* margin-left: 20px; */
-	border-radius: 5px;
-	display: inline-block;
-	font-size: 14px;
-	padding: 8px 16px;
-	/* margin-left: 8px; */
-	margin-right: 8px;
-}
-
-.email {
-	display: block;
-	font-size: 24px;
-	font-weight: 300;
-	color: #81899C;
-	margin-top: 10px;
-}
-
 .lead {
-	font-size: 20px;
+	font-size: 1.6em;
+	padding: 1.5em 0;
 	font-weight: 300;
-	margin: 32px 0;
-	line-height: 55px;
-	border-top: solid 2px #EEF0F7;
 }
-
-.paper {
-	font-size: 24px;
+.authors {
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+	font-size: 1.6em;
 	font-weight: 300;
-	margin-top: 15px;
-	line-height: 55px;
-}
-
-/*hero ends*/
-
-/*skills & intrests*/
-
-.sections {
-	vertical-align: top;
-	display: inline-block;
-	width: 49.7%;
-	height: 50px;
-}
-
-.section-title {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 15px;
-}
-
-.list-card {
-	margin: 30px 0;
-}
-
-.list-card .exp , .list-card div{
-	display: inline-block;
-	vertical-align: top;
-}
-
-.list-card .exp {
-	margin-right: 15px;
-	color: #4A90E2;
-	font-weight: 600;
-	width: 100px;
-}
-
-.list-card div {
-	width: 70%;
-}
-
-.list-card h3 {
-	font-size: 20px;
-	font-weight: 600;
-	color: #5B6A9A;
-	line-height: 26px;
-	margin-bottom: 8px;
-}
-
-.list-card div span {
-	font-size: 16px;
 	color: #81899C;
-	line-height: 22px;
+	padding-bottom: 0.8em;
 }
-
-/*skill and intrests ends*/
-
-/* Achievements */
-
-
-.cards {
-	max-width: 1120px;
+.borderBottom {
+	border-bottom: solid 2px #EEF0F7;
+}
+article {
+	margin: 3.2em 0;
+}
+article h1 {
+	font-size: 2em;
+	padding: 0;
+	margin-bottom: 1.2em;
+}
+article h1 > strong {
 	display: block;
-	margin-top: 280px;
 }
-
+.cta {
+	font-size: 0.8em;
+	border-radius: 2px;
+	padding: 0.125em 0.5em;
+	background-color: #EEF0F7;
+	white-space: nowrap;
+}
+.cta:hover {
+	color: red;
+	transition: color 1s;
+}
+.fa-file-pdf-o {
+	margin-right: 0.25em;
+}
+section {
+	margin: 3.2em 0;
+	display: flex;
+	flex-direction: column;
+}
+section h1.title {
+	font-size: 2em;
+	padding-bottom: 0.5em;
+	font-weight: 700;
+	margin: 0;
+}
+section h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 0.8em;
+}
+section h3 {
+	font-size: 1.6em;
+	font-weight: 700;
+	margin-bottom: 1em;
+	color: #5B6A9A;
+}
+.list-card > ul > li {
+	margin-bottom: 2.4em;
+}
+.plain-list > li {
+	font-size: 1.6em;
+	line-height: 2;
+	font-weight: 400;
+}
 .card {
-	width: 47.9%;
 	height: 200px;
 	background-color: #EEF0F7;
-	display: inline-block;
-	margin: 7px 5px;
-	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	display: flex;
+	padding: 1.6em;
+	font-weight: 300;
+	justify-content: center;
+	align-items: center;
+	color: #5B6A9A;
+}
+.card-odd {
+	margin-bottom: 2em;
+}
+.skill-level span {
+	font-size: 0.5em;
+	vertical-align: top;
+}
+.skill-level p {
+	font-size: 6em;
+	line-height: 1.4;
+	color: #5B6A9A;
+	font-weight: 300;
+	margin: 0;
+}
+.skill-meta {
+	max-width: 300px;
+	margin-left: 3.2em;
+	text-align: left;
+}
+.skill-meta h3 {
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1.6;
+	margin: 0;
+}
+.skill-meta p {
+	color: #81899C;
+	font-size: 1.6em;
+	font-weight: 400;
+	margin: 0;
+}
+section.chart {
+	display: none;
+}
+section p {
+	color: #15171a;
+	font-size: 0.9em;
+	font-weight: 400;
+	margin-bottom: 2em;
+}
+.chart-links {
+	display: block;
+}
+.chart-links ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.chart-links li {
+	width: 100%;
+	margin: 1em 0;
+}
+.chart-links li > a {
+	padding-bottom: 1em;
+	font-size: 1.6em;
+	line-height: 2;
+	font-weight: 700;
+}
+.chart-links p {
+	font-size: 1.4em;
+	color: #81899C;
+	font-weight: 300;
+	margin: 0;
 }
 
-/* .card-active , .card:hover{
+/* ------------------ 425px ------------------- */
+@media (min-width: 425px) {
+	.chart-links li {
+		width: 50%;
+	}
+}
+
+/* ------------------ 768px ------------------- */
+@media (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	.lead, .authors, section h2, section h3 {
+		font-size: 1em;
+	}
+	.lead {
+		max-width: 80%;
+	}
+	article h1 {
+		font-size: 1.2em;
+	}
+	section {
+		flex-direction: row;
+	}
+	section h1.title {
+		font-size: 1em;
+	}
+	.plain-list > li {
+		font-size: 0.8em;
+	}
+	.list-card > ul > li:last-child {
+		margin-bottom: 0;
+	}
+	.list-card {
+		width: 50%;
+	}
+	.card-odd {
+		margin-right: 0.5em;
+		margin-bottom: 0;
+	}
+	.card-even {
+		margin-left: 0.5em;
+	}
+	.skill-level p {
+		font-size: 4em;
+	}
+	.skill-meta {
+		margin-left: 1.2em;
+	}
+	.skill-meta h3, .skill-meta p {
+		font-size: 0.8em;
+	}
+	section.stats > div {
+		width: 50%;
+	}
+	section.chart {
+		display: block;
+	}
+	.iframe-container {
+		overflow: hidden;
+		padding-top: 500px;
+		position: relative;
+	}
+	.iframe-container iframe {
+		 border: 0;
+		 height: 100%;
+		 left: 0;
+		 position: absolute;
+		 top: 0;
+		 bottom: 0;
+		 right: 0;
+		 width: 100%;
+	}
+	section p {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	.chart-links li {
+		width: 30%;
+	}
+	.chart-links li > a {
+		font-size: 1em;
+	}
+	.chart-links p {
+		font-size: 0.8em;
+	}
+}
+
+/*
+------------------ 1200px -------------------
+*/
+@media (min-width: 1200px) {
+	body {
+		font-size: 24px;
+	}
+	main {
+		margin: 0 auto;
+	}
+	.chart-links li {
+		width: 25%;
+	}
+}
+/*
+.card-active , .card:hover{
 	transform: scale(1.02);
 	transition: 0.5s;
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
 	cursor: pointer;
-} */
-
-
-.skill-level {
-	display: inline-block;
-	max-width: 160px;
 }
-
-.skill-level span {
-	font-size: 35px;
-	font-weight: 300;
-	color: #5B6A9A;
-	vertical-align: top;
-}
-
-.skill-level h2 {
-	font-size: 95px;
-	font-weight: 300;
-	display: inline-block;
-	vertical-align: top;
-	color: #5B6A9A;
-	letter-spacing: -5px;
-}
-
-.skill-meta {
-	vertical-align: top;
-	display: inline-block;
-	max-width: 300px;
-	text-align: left;
-	margin-top: 15px;
-	margin-left: 15px;
-}
-
-.skill-meta h3 {
-	font-size: 20px;
-	font-weight: 800;
-	color: #5B6A9A;
-	margin-bottom: 5px;
-}
-
-.skill-meta span{
-	color: #81899C;
-	line-height: 20px;
-	font-size: 16px;
-}
-
-/* Achievements ends */
+*/
 
 
-
-/* Timeline styles*/
-
-ol {
-	position: relative;
-	display: block;
-	margin: 100px 0;
-	height: 2px;
-}
-ol::before,
-ol::after {
-	content: "";
-	position: absolute;
-	top: -10px;
-	display: block;
-	width: 0;
-	height: 0;
-  	border-radius: 10px;
-	border: 0px solid #31708F;
-}
-ol::before {
-	left: -5px;
-}
-ol::after {
-	right: -10px;
-	border: 0px solid transparent;
-	border-right: 0;
-	border-left: 20px solid #31708F;
-  	border-radius: 3px;
-}
-
-/* ---- Timeline elements ---- */
-li {
-	position: relative;
-	display: inline-block;
-	float: left;
-	width: 25%;
-  	height: 50px;
-}
-ol .line {
-  position: absolute;
-  top: -47px;
-  left: 1%;
-  width: 1100px;
-  font-size: 20px;
-  font-weight: 600;
-  color: #04143A;
-}
-li .point {
-	content: "";
-	top: -7px;
-	left: 0%;
-	display: block;
-	width: 8px;
-	height: 8px;
-	border: 4px solid #fff;
-	border-radius: 10px;
-	background: #4A90E2;
-  position: absolute;
-}
-li .description {
-  display: none;
-  padding: 10px 0;
-  margin-top: 20px;
-  position: relative;
-  font-weight: normal;
-  z-index: 1;
-  max-width: 95%;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  color: #5B6A9A;
-}
-.description::before {
-  content: '';
-  width: 0; 
-  height: 0; 
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f4f4f4;
-  position: absolute;
-  top: -5px;
-  left: 43%;
-}
-
-
-.timeline .date{
-	font-size: 14px;
-	color: #81899C;
-	font-weight: 300;
-}
-
-.timeline .line_desc{
-	font-size: 14px;
-	width: 1100px;
-	color: #81899C;
-	font-weight: 300;
-}
-
-/* ---- Hover effects ---- */
-li:hover {
-  color: #48A4D2;
-}
-li .description {
-  display: block;
-}
-
-/*timeline ends*/
-
-
-
-/* Media queries*/
-
-@media(max-width: 1024px){
-	.container {
-		padding: 15px;
-		margin: 0px auto;
-	}
-	.cards {
-		margin-top: 250px;
-	}
-}
-
-@media(max-width: 768px){
-	.container {
-		padding: 15px;
-		margin: 0px auto;
-	}
-	.cards {
-		margin-top: 320px;
-	}
-
-	.card {
-		padding: 15px;
-		text-align: left;
-	}
-	.card h2 {
-		font-size: 70px;
-	}
-		.card , .sections {
-		width: 100%;
-		height: auto;
-		margin: 10px 0;
-		float: left;
-	}
-
-	.timeline{
-		border: none;
-		background-color: rgba(0,0,0,0);
-	}
-
-	.timeline li{
-		margin-top: 70px;
-		height: 150px;
-	}
-}
-
-
-@media(max-width: 425px) {
-	h1.name {
-		font-size: 40px;
-	}
-
-	.card , .sections {
-		width: 100%;
-		height: auto;
-		margin: 10px 0;
-		float: left;
-	}
-
-	.timeline{
-		display: none;
-		}
-
-	.job-title {
-		position: absolute;
-		font-size: 14px;
-		top: -40px;
-		right: 20px;
-		padding: 8px 16px;
-	}
-
-	.lead {
-		margin-top: 15px;
-		font-size: 20px;
-		line-height: 28px;
-	}
-	.container {
-		margin: 0px;
-		padding: 0 15px;
-	}
-	footer {
-		margin-top: 2050px;
-	}
-	}
-
+/* Media queries
+1024px
+768px
+425px
+320px
+*/
 
 /* End of all :P*/
