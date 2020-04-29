@@ -37,12 +37,12 @@
 	<main>
 		<header class="borderBottom">
 			<h1 class="borderBottom"><strong>UWA</strong> Unambiguous Word Annotations</h1>
-			<p class="lead"><em>Annotations of unambiguous words in WordNet for improved Sense Embeddings</em></p>
+			<p class="lead">This website contains a sense-annotated corpus of unambiguous words based on Wikipedia and OpenWebText. There are different versions depending on the number of sentences per word sense (1, 10 or 100). Embeddings for WordNet senses and synsets based on the state-of-the-art <a href="">LMMS</a> model are also available.</p>
 			<span class="authors"><a href="http://danlou.github.io/" target="_blank">Daniel Loureiro</a> and <a href="http://josecamachocollados.com/" target="_blank">Jose Camacho-Collados</a></span>
 		</header>
 
 		<article>
-			<h1><strong>Don't Neglect the Obvious:</strong> On the Role of Unambiguous Words in Word Sense Disambiguation <a href="" target="_blank" class="cta"><i class="fa fa-file-pdf-o"></i>PDF</span></a></h1>
+			<h1><strong>Paper</strong>Don't Neglect the Obvious: On the Role of Unambiguous Words in Word Sense Disambiguation <a href="" target="_blank" class="cta"><i class="fa fa-file-pdf-o"></i>PDF</span></a></h1>
 			<section>
 				<div class="list-card">
 					<h2>Datasets</h2>
@@ -61,6 +61,12 @@
 								<li><a href="https://drive.google.com/open?id=10fkApvgTEIrkDKC7Vs77l9tSe3brWwaC">UWA 100 (507 MB)</a></li>
 							</ul>
 						</li>
+						<li>
+							<h3>Extras</h3>
+							<ul class="plain-list">
+								<li><a href="https://drive.google.com/open?id=1UdIJOZyZjV8IlDvjQSFjwGD2EsFU14I0">SemCor+UWA 10 Sense Counts</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 				<div class="list-card">
@@ -70,15 +76,17 @@
 							<h3>RoBERTa (large)</h3>
 							<ul class="plain-list">
 								<li><a href="https://drive.google.com/open?id=1FttGUXG3Q46HsAFxn-G8VhdU4QEThEgT">SemCor+UWA10 Prop. (all sensekeys) (666 MB)</a></li>
+								<li><a href="https://drive.google.com/open?id=1UATPaXK21v3h2K_BFqcgQPK6rT6kYGa5">SemCor+UWA10 (123,087 sensekeys) (498 MB)</a></li>
 								<li><a href="https://drive.google.com/open?id=1z0ESiXJJGIz3_1kQx-Zjm9S68NspTemX">SemCor+UWA10 Prop. (all synsets) (391 MB)</a></li>
-								<li><a href="https://drive.google.com/open?id=1UATPaXK21v3h2K_BFqcgQPK6rT6kYGa5">SemCor+UWA10 (XX,XXX sensekeys) (498 MB)</a></li>
+								<li><a href="https://github.com/danlou/UWA/tree/master/results/roberta-large">WSD Results with LMMS</a></li>
 							</ul>
 						</li>
 						<li>
 							<h3>BERT (large-cased)</h3>
 							<ul class="plain-list">
 								<li><a href="https://drive.google.com/open?id=1X4VzX7Am8KVDTDmP6fJTbP_HEPKbzSSc">SemCor+UWA10 Prop. (all sensekeys) (648 MB)</a></li>
-								<li><a href="https://drive.google.com/open?id=184Z8eD4i9lPAHc4VXDULnkWObcgz_cZ0">SemCor+UWA10 (XX,XXX sensekeys) (484 MB)</a></li>
+								<li><a href="https://drive.google.com/open?id=184Z8eD4i9lPAHc4VXDULnkWObcgz_cZ0">SemCor+UWA10 (123,087 sensekeys) (484 MB)</a></li>
+								<li><a href="https://github.com/danlou/UWA/tree/master/results/bert-large-cased">WSD Results with LMMS</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -89,12 +97,12 @@
 				<div>
 					<div class="card card-odd">
 						<div class="skill-level">
-							<p>80<span>%</span></p>
+							<p>53<span>%</span></p>
 						</div>
 			
 						<div class="skill-meta">
 							<h3>WordNet Coverage</h3>
-							<p>With SemCor, increases coverage from 30% to 80% of WordNet 3.0 sensekeys.</p>
+							<p>With SemCor, increases coverage from 16% to 53% of WordNet 3.0 sensekeys.</p>
 						</div>
 					</div>
 				</div>
@@ -102,27 +110,27 @@
 				<div>
 					<div class="card card-even">
 						<div class="skill-level">
-							<p>1.1<span>M</span></p>
+							<p>6.1<span>M</span></p>
 						</div>
 			
 						<div class="skill-meta">
 							<h3>Annotations</h3>
-							<p>Compiled by processing over 40GB of text from Wikipedia and OpenWebText.</p>
+							<p>Compiled by processing over 53GB of text from Wikipedia and OpenWebText.</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="chart">
-				<h1 class="title">T-SNE comparison for Synset Embeddings that belong to the 'noun.food' supersense</h1>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus laboriosam reprehenderit rem, maxime porro illum accusamus voluptatum tempore totam veritatis commodi amet assumenda. Quas sit, sed debitis hic voluptatum nemo.</p>
+				<h1 class="title">Example T-SNE visualization ('noun.food' WN group)</h1>
+				<p>T-SNE comparison for Synset Embeddings that belong to the 'noun.food' supersense. WIP</p>
 				<div class="iframe-container">
 					<iframe src="tsne/noun.food_500px.html"></iframe>
 				</div>
 			</section>
 
 			<section class="chart-links">
-				<h1 class="title">T-SNE comparisons for all Synset Embeddings grouped by WordNet supersenses</h1>
+				<h1 class="title">T-SNE comparisons for all Synset Embeddings grouped by WordNet supersenses WIP</h1>
 				<ul>
 					<li>
 						<a href="tsne/adj.all.html" target="_blank">adj.all</a>

@@ -143,11 +143,11 @@ section h2 {
 section h3 {
 	font-size: 1.6em;
 	font-weight: 700;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	color: #5B6A9A;
 }
 .list-card > ul > li {
-	margin-bottom: 2.4em;
+	margin-bottom: 1.5em;
 }
 .plain-list > li {
 	font-size: 1.6em;
@@ -226,7 +226,7 @@ section p {
 	font-weight: 700;
 }
 .chart-links p {
-	font-size: 1.4em;
+	font-size: 0.7em;
 	color: #81899C;
 	font-weight: 300;
 	margin: 0;
@@ -248,7 +248,7 @@ section p {
 		font-size: 1em;
 	}
 	.lead {
-		max-width: 80%;
+		max-width: 100%;
 	}
 	article h1 {
 		font-size: 1.2em;
@@ -292,7 +292,7 @@ section p {
 	}
 	.iframe-container {
 		overflow: hidden;
-		padding-top: 500px;
+		padding-top: 520px;
 		position: relative;
 	}
 	.iframe-container iframe {
@@ -304,6 +304,8 @@ section p {
 		 bottom: 0;
 		 right: 0;
 		 width: 100%;
+		 margin-right: 10%;
+		 margin-left: 10%;
 	}
 	section p {
 		font-size: 16px;
@@ -316,7 +318,7 @@ section p {
 		font-size: 1em;
 	}
 	.chart-links p {
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 }
 
