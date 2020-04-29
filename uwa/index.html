@@ -37,7 +37,7 @@
 	<main>
 		<header class="borderBottom">
 			<h1 class="borderBottom"><strong>UWA</strong> Unambiguous Word Annotations</h1>
-			<p class="lead">This website contains a sense-annotated corpus of unambiguous words based on Wikipedia and OpenWebText. There are different versions depending on the number of sentences per word sense (1, 10 or 100). Embeddings for WordNet senses and synsets based on the state-of-the-art <a href="">LMMS</a> model are also available.</p>
+			<p class="lead">This website contains a sense-annotated corpus of unambiguous words based on Wikipedia and OpenWebText. There are different versions depending on the number of sentences per word sense (1, 10 or 100). Embeddings for WordNet senses and synsets based on the state-of-the-art <a href="https://www.aclweb.org/anthology/P19-1569">LMMS</a> model are also available.</p>
 			<span class="authors"><a href="http://danlou.github.io/" target="_blank">Daniel Loureiro</a> and <a href="http://josecamachocollados.com/" target="_blank">Jose Camacho-Collados</a></span>
 		</header>
 
@@ -78,7 +78,7 @@
 								<li><a href="https://drive.google.com/open?id=1FttGUXG3Q46HsAFxn-G8VhdU4QEThEgT">SemCor+UWA10 Prop. (all sensekeys) (666 MB)</a></li>
 								<li><a href="https://drive.google.com/open?id=1UATPaXK21v3h2K_BFqcgQPK6rT6kYGa5">SemCor+UWA10 (123,087 sensekeys) (498 MB)</a></li>
 								<li><a href="https://drive.google.com/open?id=1z0ESiXJJGIz3_1kQx-Zjm9S68NspTemX">SemCor+UWA10 Prop. (all synsets) (391 MB)</a></li>
-								<li><a href="https://github.com/danlou/UWA/tree/master/results/roberta-large">WSD Results with LMMS</a></li>
+								<li><a href="https://github.com/danlou/UWA/tree/master/results/roberta-large" target="_blank">WSD (1NN) Output Files</a></li>
 							</ul>
 						</li>
 						<li>
@@ -86,7 +86,7 @@
 							<ul class="plain-list">
 								<li><a href="https://drive.google.com/open?id=1X4VzX7Am8KVDTDmP6fJTbP_HEPKbzSSc">SemCor+UWA10 Prop. (all sensekeys) (648 MB)</a></li>
 								<li><a href="https://drive.google.com/open?id=184Z8eD4i9lPAHc4VXDULnkWObcgz_cZ0">SemCor+UWA10 (123,087 sensekeys) (484 MB)</a></li>
-								<li><a href="https://github.com/danlou/UWA/tree/master/results/bert-large-cased">WSD Results with LMMS</a></li>
+								<li><a href="https://github.com/danlou/UWA/tree/master/results/bert-large-cased" target="_blank">WSD (1NN) Output Files</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -99,7 +99,6 @@
 						<div class="skill-level">
 							<p>53<span>%</span></p>
 						</div>
-			
 						<div class="skill-meta">
 							<h3>WordNet Coverage</h3>
 							<p>With SemCor, increases coverage from 16% to 53% of WordNet 3.0 sensekeys.</p>
@@ -112,7 +111,6 @@
 						<div class="skill-level">
 							<p>6.1<span>M</span></p>
 						</div>
-			
 						<div class="skill-meta">
 							<h3>Annotations</h3>
 							<p>Compiled by processing over 53GB of text from Wikipedia and OpenWebText.</p>
@@ -122,190 +120,192 @@
 			</section>
 
 			<section class="chart">
-				<h1 class="title">Example T-SNE visualization ('noun.food' WN group)</h1>
-				<p>T-SNE comparison for Synset Embeddings that belong to the 'noun.food' supersense. WIP</p>
+				<h1 class="title">Visualization of the Embedding Space</h1>
+				<p>T-SNE comparison for synset embeddings that belong to the 'noun.food' supersense. See <a href="tsne/synsets_900px.html" target="_blank">here (23MB)</a> for visualization of all embeddings, or below for other WN groups.
+				Using embeddings for synsets instead of sensekeys for clearer visualization. Synset embeddings learned by converting sensekey annotations in corresponding corpora.</p>
+
 				<div class="iframe-container">
 					<iframe src="tsne/noun.food_500px.html"></iframe>
 				</div>
 			</section>
 
 			<section class="chart-links">
-				<h1 class="title">T-SNE comparisons for all Synset Embeddings grouped by WordNet supersenses WIP</h1>
+				<h1 class="title">Visualizations for each WordNet supersense</h1>
 				<ul>
 					<li>
-						<a href="tsne/adj.all.html" target="_blank">adj.all</a>
+						<a href="tsne/adj.all_900px.html" target="_blank">adj.all</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/adj.pert.html" target="_blank">adj.pert</a>
+						<a href="tsne/adj.pert_900px.html" target="_blank">adj.pert</a>
 						<p>3,661 synsets (36% vs. 84% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/adj.ppl.html" target="_blank">adj.ppl</a>
+						<a href="tsne/adj.ppl_900px.html" target="_blank">adj.ppl</a>
 						<p>60 synsets (12% vs. 58% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/adv.all.html" target="_blank">adv.all</a>
+						<a href="tsne/adv.all_900px.html" target="_blank">adv.all</a>
 						<p>3,621 synsets (21% vs. 61% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.act.html" target="_blank">noun.act</a>
+						<a href="tsne/noun.act_900px.html" target="_blank">noun.act</a>
 						<p>6,650 synsets (29% vs. 74% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.animal.html" target="_blank">noun.animal</a>
+						<a href="tsne/noun.animal_900px.html" target="_blank">noun.animal</a>
 						<p>7,509 synsets (21% vs. 96% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.artifact.html" target="_blank">noun.artifact</a>
+						<a href="tsne/noun.artifact_900px.html" target="_blank">noun.artifact</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.attribute.html" target="_blank">noun.attribute</a>
+						<a href="tsne/noun.attribute_900px.html" target="_blank">noun.attribute</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.body.html" target="_blank">noun.body</a>
+						<a href="tsne/noun.body_900px.html" target="_blank">noun.body</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.cognition.html" target="_blank">noun.cognition</a>
+						<a href="tsne/noun.cognition_900px.html" target="_blank">noun.cognition</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.communication.html" target="_blank">noun.communication</a>
+						<a href="tsne/noun.communication_900px.html" target="_blank">noun.communication</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.event.html" target="_blank">noun.event</a>
+						<a href="tsne/noun.event_900px.html" target="_blank">noun.event</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.feeling.html" target="_blank">noun.feeling</a>
+						<a href="tsne/noun.feeling_900px.html" target="_blank">noun.feeling</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.food.html" target="_blank">noun.food</a>
+						<a href="tsne/noun.food_900px.html" target="_blank">noun.food</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.group.html" target="_blank">noun.group</a>
+						<a href="tsne/noun.group_900px.html" target="_blank">noun.group</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.location.html" target="_blank">noun.location</a>
+						<a href="tsne/noun.location_900px.html" target="_blank">noun.location</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.motive.html" target="_blank">noun.motive</a>
+						<a href="tsne/noun.motive_900px.html" target="_blank">noun.motive</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.object.html" target="_blank">noun.object</a>
+						<a href="tsne/noun.object_900px.html" target="_blank">noun.object</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.person.html" target="_blank">noun.person</a>
+						<a href="tsne/noun.person_900px.html" target="_blank">noun.person</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.phenomenon.html" target="_blank">noun.phenomenon</a>
+						<a href="tsne/noun.phenomenon_900px.html" target="_blank">noun.phenomenon</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.possession.html" target="_blank">noun.possession</a>
+						<a href="tsne/noun.possession_900px.html" target="_blank">noun.possession</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.process.html" target="_blank">noun.process</a>
+						<a href="tsne/noun.process_900px.html" target="_blank">noun.process</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.quantity.html" target="_blank">noun.quantity</a>
+						<a href="tsne/noun.quantity_900px.html" target="_blank">noun.quantity</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.relation.html" target="_blank">noun.relation</a>
+						<a href="tsne/noun.relation_900px.html" target="_blank">noun.relation</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.shape.html" target="_blank">noun.shape</a>
+						<a href="tsne/noun.shape_900px.html" target="_blank">noun.shape</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.state.html" target="_blank">noun.state</a>
+						<a href="tsne/noun.state_900px.html" target="_blank">noun.state</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.substance.html" target="_blank">noun.substance</a>
+						<a href="tsne/noun.substance_900px.html" target="_blank">noun.substance</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.time.html" target="_blank">noun.time</a>
+						<a href="tsne/noun.time_900px.html" target="_blank">noun.time</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/noun.Tops.html" target="_blank">noun.Tops</a>
+						<a href="tsne/noun.Tops_900px.html" target="_blank">noun.Tops</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.body.html" target="_blank">verb.body</a>
+						<a href="tsne/verb.body_900px.html" target="_blank">verb.body</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>			
 					<li>
-						<a href="tsne/verb.change.html" target="_blank">verb.change</a>
+						<a href="tsne/verb.change_900px.html" target="_blank">verb.change</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.cognition.html" target="_blank">verb.cognition</a>
+						<a href="tsne/verb.cognition_900px.html" target="_blank">verb.cognition</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.communication.html" target="_blank">verb.communication</a>
+						<a href="tsne/verb.communication_900px.html" target="_blank">verb.communication</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.competition.html" target="_blank">verb.competition</a>
+						<a href="tsne/verb.competition_900px.html" target="_blank">verb.competition</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.consumption.html" target="_blank">verb.consumption</a>
+						<a href="tsne/verb.consumption_900px.html" target="_blank">verb.consumption</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.contact.html" target="_blank">verb.contact</a>
+						<a href="tsne/verb.contact_900px.html" target="_blank">verb.contact</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>		
 					<li>
-						<a href="tsne/verb.creation.html" target="_blank">verb.creation</a>
+						<a href="tsne/verb.creation_900px.html" target="_blank">verb.creation</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>	
 					<li>
-						<a href="tsne/verb.emotion.html" target="_blank">verb.emotion</a>
+						<a href="tsne/verb.emotion_900px.html" target="_blank">verb.emotion</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.motion.html" target="_blank">verb.motion</a>
+						<a href="tsne/verb.motion_900px.html" target="_blank">verb.motion</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.perception.html" target="_blank">verb.perception</a>
+						<a href="tsne/verb.perception_900px.html" target="_blank">verb.perception</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>	
 					<li>
-						<a href="tsne/verb.possession.html" target="_blank">verb.possession</a>
+						<a href="tsne/verb.possession_900px.html" target="_blank">verb.possession</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li>
-						<a href="tsne/verb.social.html" target="_blank">verb.social</a>
+						<a href="tsne/verb.social_900px.html" target="_blank">verb.social</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>	
 					<li>
-						<a href="tsne/verb.stative.html" target="_blank">verb.stative</a>
+						<a href="tsne/verb.stative_900px.html" target="_blank">verb.stative</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>		
 					<li>
-						<a href="tsne/verb.weather.html" target="_blank">verb.weather</a>
+						<a href="tsne/verb.weather_900px.html" target="_blank">verb.weather</a>
 						<p>14,435 synsets (58% vs. 67% inferred)</p>
 					</li>
 					<li></li>
