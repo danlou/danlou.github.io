@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Media Analysis related to Preterms - C0022876 (infant)</title>
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@daniebloureiro" />
+	<meta property="og:url" content="http://danlou.github.io/medlinker-social/" />
+	<meta property="og:title" content="Social Media Analysis related to Preterms - C0022876 (infant)"/>
+	<meta property="og:description" content="CUI Analysis."/>
+	<meta property="og:image" content="http://danlou.github.io/medlinker-social/preview.png" />	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154847184-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	function trackOutboundLink(url) {
+		gtag('event', 'click', {
+			'event_category': 'outbound',
+			'event_label': url,
+			'transport_type': 'beacon',
+			'event_callback': function () {
+			document.location = url;
+			}
+		});
+		console.debug("Outbound link clicked: " + url);
+	}
+	function onClickCallback(event) {
+		if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+		return;
+		}
+		trackOutboundLink(event.target);
+	}
+	gtag('js', new Date());
+	gtag('config', 'UA-154847184-1', {});
+	document.addEventListener('click', onClickCallback, false);
+	</script>
+</head>
+<body>
+	<main>
+        <h1><a href="../index.html">Social Media Analysis related to Preterms</a></h1>
+        <h1>C0022876 (Premature obstetric labor)</h1>
+        <!-- <a href="https://www.ncbi.nlm.nih.gov/medgen/?term=C0022876" target="_blank">More details about concept: NCBI, NCIM</a> -->
+        More details about concept: <a href="https://www.ncbi.nlm.nih.gov/medgen/?term=C0022876">NCBI</a>, <a href="https://ncim.nci.nih.gov/ncimbrowser/pages/concept_details.jsf?type=sources&code=C0022876">NCIM</a>
+        <article>
+            <section class="chart">
+                <h1 class="title">Jump to section:</h1>
+                <a href="#samples">Samples from Social Corpus</a><br>
+                <a href="#hits">Hits per UMLS Alias on Social Corpus</a><br>
+                <a href="#wordcloud">Word Cloud Comparison</a><br>
+                <a href="#embeddings">Embedding Space Comparison</a><br>
+                <a href="#stys">Nearest Neighbors by Semantic Type</a><br>
+            </section>
+
+            <section class="chart" id="samples">
+                <h1 class="title">Samples from Social Corpus</h1>
+                <p>T-SNE comparison for word embeddings learned from medical domain (PubMed) and social media (Reddit) independently.</p>
+                <blockquote class="reddit-card" data-card-preview="1"><a href="https://www.reddit.com/r/pregnant/comments/j3h73t/my_nightmare_birth_story_tw/">My nightmare birth story (TW)</a> from <a href="http://www.reddit.com/r/pregnant">r/pregnant</a></blockquote>
+<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+            </section>
+
+
+            <section class="chart" id="embeddings">
+                <h1 class="title">Embedding Space Comparison</h1>
+                <p>T-SNE comparison for word embeddings learned from medical domain (PubMed) and social media (Reddit) independently.</p>
+                <p>Pearson correlation for union of top 10% of neighbors: <!-- CORR_VALUE --></p>
+                <div class="iframe-container">
+                    <iframe src="http://danlou.github.io/medlinker-social/scatter/C0022876.html"></iframe>
+                </div>
+            </section>
+
+			<section class="chart-links" id="hits">
+                <h1 class="title">Hits per UMLS Alias on Social Corpus</h1>
+                <ul>
+                    <!-- ALIAS_LIST -->
+                    <li>
+						infant
+						<p>28,000 hits</p>
+                    </li>
+                </ul>
+            </section>
+
+        </ul>
+    </section>
+</article>
+</main>
+</body>
+</html>
