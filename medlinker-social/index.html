@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Media Analysis related to Preterms</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@danielbloureiro" />
+	<meta property="og:url" content="http://danlou.github.io/medlinker-social/" />
+	<meta property="og:title" content="Social Media Analysis related to Preterms"/>
+	<meta property="og:description" content="Homepage."/>
+	<meta property="og:image" content="http://danlou.github.io/medlinker-social/preview.png" />	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154847184-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	function trackOutboundLink(url) {
+		gtag('event', 'click', {
+			'event_category': 'outbound',
+			'event_label': url,
+			'transport_type': 'beacon',
+			'event_callback': function () {
+			document.location = url;
+			}
+		});
+		console.debug("Outbound link clicked: " + url);
+	}
+	function onClickCallback(event) {
+		if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+		return;
+		}
+		trackOutboundLink(event.target);  
+	}
+	gtag('js', new Date());
+	gtag('config', 'UA-154847184-1', {});
+	document.addEventListener('click', onClickCallback, false);
+	</script>
+</head>
+<body>
+	<main>
+		<h1>Social Media Analysis related to Preterms</h1>
+		<p class="lead">This website showcases various analyses for preterm related concepts on relevant Reddit communities, supported by an adaptation of MedLinker to the social domain, called MedLinker-Social.</p>
+		<h2><a href="concepts.html" class="cta"><i class="fa fa-list"></i>Concept Analysis</span></a>
+			<a href="https://github.com/danlou/MedLinker-social/" class="cta"><i class="fa fa-github"></i>MedLinker-Social Code</span></a>
+			<a href="https://github.com/danlou/MedLinker-social/blob/master/tutorial.ipynb" class="cta"><i class="fa fa-book"></i>Tutorial Notebook</span></a>
+		</h2>
+		<p class="lead">For more information on the full MedLinker tool developed for this project, please check the links below.</p>
+		<h2><a href="https://link.springer.com/chapter/10.1007/978-3-030-45442-5_29" class="cta"><i class="fa fa-file-pdf-o"></i>Paper (ECIR 2020)</span></a>
+			<a href="https://github.com/danlou/MedLinker" class="cta"><i class="fa fa-github"></i>MedLinker Code</span></a>
+		</h2>
+		<section class="chart">
+			<h1 class="title">Additional links:</h1>
+			<a href="#samples">Access to Data and Models</a><br>
+			<a href="#samples">Adapting MedLinker to MedLinker-Social</a><br>
+			<a href="#hits">Corpora and Linking Statistics</a><br>
+		</section>
+		<p class="lead">The research leading to these results has received funding from the European Union's Horizon 2020 -  The EU Framework Programme for Research and Innovation 2014-2020, under grant agreement No. 733280.</p>
+	</main>
+</body>
+</html>

@@ -113,15 +113,14 @@ article h1 > strong {
 .cta {
 	font-size: 0.8em;
 	border-radius: 2px;
-	padding: 0.125em 0.5em;
+	padding: 0.5em 0.5em;
 	background-color: #EEF0F7;
 	white-space: nowrap;
 }
-.cta:hover {
-	color: red;
-	transition: color 1s;
-}
 .fa-file-pdf-o {
+	margin-right: 0.25em;
+}
+.fa-github {
 	margin-right: 0.25em;
 }
 section {
