@@ -1,90 +1,1596 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Social Media Analysis related to Preterms - C0022876 (infant)</title>
+	<title>Social Media Analysis related to Preterms - C0022876 (Early labor)</title>
 	<link rel="stylesheet" type="text/css" href="../styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content="@daniebloureiro" />
+	<meta name="twitter:creator" content="@danielbloureiro" />
 	<meta property="og:url" content="http://danlou.github.io/medlinker-social/" />
-	<meta property="og:title" content="Social Media Analysis related to Preterms - C0022876 (infant)"/>
-	<meta property="og:description" content="CUI Analysis."/>
+	<meta property="og:title" content="Social Media Analysis related to Preterms - C0022876 (Early labor)"/>
+	<meta property="og:description" content="Concept Analysis"/>
 	<meta property="og:image" content="http://danlou.github.io/medlinker-social/preview.png" />	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154847184-1"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	function trackOutboundLink(url) {
-		gtag('event', 'click', {
-			'event_category': 'outbound',
-			'event_label': url,
-			'transport_type': 'beacon',
-			'event_callback': function () {
-			document.location = url;
-			}
-		});
-		console.debug("Outbound link clicked: " + url);
-	}
-	function onClickCallback(event) {
-		if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-		return;
-		}
-		trackOutboundLink(event.target);
-	}
-	gtag('js', new Date());
-	gtag('config', 'UA-154847184-1', {});
-	document.addEventListener('click', onClickCallback, false);
-	</script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        function trackOutboundLink(url) {
+            gtag('event', 'click', {
+                'event_category': 'outbound',
+                'event_label': url,
+                'transport_type': 'beacon',
+                'event_callback': function () {
+                document.location = url;
+                }
+            });
+            console.debug("Outbound link clicked: " + url);
+        }
+        function onClickCallback(event) {
+            if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+            return;
+            }
+            trackOutboundLink(event.target);  
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-154847184-1', {});
+        document.addEventListener('click', onClickCallback, false);
+    </script>
 </head>
 <body>
 	<main>
         <h1><a href="../index.html">Social Media Analysis related to Preterms</a></h1>
-        <h1>C0022876 (Premature obstetric labor)</h1>
-        <!-- <a href="https://www.ncbi.nlm.nih.gov/medgen/?term=C0022876" target="_blank">More details about concept: NCBI, NCIM</a> -->
+        <h1>C0022876 (Early labor)</h1>
         More details about concept: <a href="https://www.ncbi.nlm.nih.gov/medgen/?term=C0022876">NCBI</a>, <a href="https://ncim.nci.nih.gov/ncimbrowser/pages/concept_details.jsf?type=sources&code=C0022876">NCIM</a>
         <article>
             <section class="chart">
                 <h1 class="title">Jump to section:</h1>
                 <a href="#samples">Samples from Social Corpus</a><br>
                 <a href="#hits">Hits per UMLS Alias on Social Corpus</a><br>
-                <a href="#wordcloud">Word Cloud Comparison</a><br>
+                <a href="#wordclouds">Word Cloud Comparison</a><br>
                 <a href="#embeddings">Embedding Space Comparison</a><br>
                 <a href="#stys">Nearest Neighbors by Semantic Type</a><br>
+                <a href="#related">Related Analysed Concepts</a><br>
             </section>
 
             <section class="chart" id="samples">
                 <h1 class="title">Samples from Social Corpus</h1>
-                <p>T-SNE comparison for word embeddings learned from medical domain (PubMed) and social media (Reddit) independently.</p>
-                <blockquote class="reddit-card"><a href="https://www.reddit.com/r/pregnant/comments/j3h73t/my_nightmare_birth_story_tw/">My nightmare birth story (TW)</a> from <a href="http://www.reddit.com/r/pregnant">r/pregnant</a></blockquote>
-<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
-            </section>
 
+                <p>
+                I'm googling ways to <strong>induce preterm labor and stories</strong> about mothers killing them selves .<br>
+                Confidence: 0.681. <a href="https://www.reddit.com/r/BabyBumps/comments/9hnqcq/chronic_back_pain_durning_third_tri/">Reddit link</a>
+                </p>
+                <p>
+                I have a question for the moms who went to the <strong>hospital relatively early in labor</strong> , by which I mean they hadn't dilated very much when they got to the hospital .<br>
+                Confidence: 0.606. <a href="https://www.reddit.com/r/beyondthebump/comments/c30i03/go_early_or_labor_longer_at_home/">Reddit link</a>
+                </p>
+                <p>
+                Despite the midwife saying she thought I was probably still in <strong>early labour</strong> , we decided to go in and get checked .<br>
+                Confidence: 0.783. <a href="https://www.reddit.com/r/BabyBumps/comments/8jkfyy/birth_story_ftm_positive_med_free_midwife_led/">Reddit link</a>
+                </p>
+                <p>
+                I also called my midwives , my doula and my birth photographer to let them know I was in <strong>early labor</strong> .<br>
+                Confidence: 1.000. <a href="https://www.reddit.com/r/BabyBumps/comments/b7ead3/i_had_a_baby_very_positive_home_birth_unmedicated/">Reddit link</a>
+                </p>
+                <p>
+                I spent most of <strong>early labor bouncing</strong> on a birthing ball at the suggestion of my AMAZING nurse .<br>
+                Confidence: 0.742. <a href="https://www.reddit.com/r/BabyBumps/comments/arl5la/birth_story_383_ftm_fast_unmedicated_mostly/">Reddit link</a>
+                </p>
+                <p>
+                I could have an experimental prenatal surgery where they insert a balloon into the baby's trachea to force the lungs to grow and then later remove it after a few weeks , but I would have to live close to the hospital for those weeks in case I went into <strong>preterm labor</strong> .<br>
+                Confidence: 1.000. <a href="https://www.reddit.com/r/breakingmom/comments/chic41/i_am_living_my_worst_nightmare/">Reddit link</a>
+                </p>
+                <p>
+                I asked my midwife about it about a month ago , she sent me in for a blood test , numbers came back normal and we moved on to <strong>worry about preterm labor</strong> .<br>
+                Confidence: 0.736. <a href="https://www.reddit.com/r/breakingmom/comments/7w65b2/stressful_pregnancy_is_almost_over/">Reddit link</a>
+                </p>
+                <p>
+                I'm sort of freaked out about the idea of SIL and BIL being here when I'm in <strong>early labour</strong> .<br>
+                Confidence: 0.783. <a href="https://www.reddit.com/r/BabyBumps/comments/8x9gab/thoughts_about_early_labour_and_people_being/">Reddit link</a>
+                </p>
+                <p>
+                A scholarly article I found indicates a 3 fold increase in risk of placental abruption 2 fold in <strong>preterm labor and generally stated</strong> there's a pretty definite link between previous pregnancy loss and synechiae .<br>
+                Confidence: 0.658. <a href="https://www.reddit.com/r/BabyBumps/comments/cccu7v/would_you_consider_changing_obs_scar_tissue/">Reddit link</a>
+                </p>
+                <p>
+                In preterm labor at 32 weeks - I am scared and worried about baby Hey everyone , I'm currently in the <strong>hospital in preterm labor</strong> .<br>
+                Confidence: 0.769. <a href="https://www.reddit.com/r/BabyBumps/comments/c6zmwz/in_preterm_labor_at_32_weeks_i_am_scared_and/">Reddit link</a>
+                </p>
+            </section>
+            <a href="#">Back to Top</a>
+
+            <section class="chart-links" id="hits">
+                <h1 class="title">Hits per UMLS Alias on Social Corpus</h1>
+                <ul>
+
+                    <li>
+						early labor
+						<p>551 hits</p>
+                    </li>
+                    <li>
+						preterm labor
+						<p>457 hits</p>
+                    </li>
+                    <li>
+						preterm labour
+						<p>106 hits</p>
+                    </li>
+                    <li>
+						premature labor
+						<p>104 hits</p>
+                    </li>
+                    <li>
+						premature labour
+						<p>25 hits</p>
+                    </li>
+                    <li>
+						labor preterm
+						<p>17 hits</p>
+                    </li>
+                    <li>
+						labor premature
+						<p>16 hits</p>
+                    </li>
+                    <li>
+						labour preterm
+						<p>13 hits</p>
+                    </li>
+                    <li>
+						labors preterm
+						<p>9 hits</p>
+                    </li>
+                    <li>
+						premature onset labor
+						<p>4 hits</p>
+                    </li>
+                    <li>
+						labour premature
+						<p>2 hits</p>
+                    </li>
+                    <li>
+						premature obstetric labor
+						<p>0 hits</p>
+                    </li>
+                    <li>
+						obstetric labor premature
+						<p>0 hits</p>
+                    </li>
+                    <li>
+						premature onset labour
+						<p>0 hits</p>
+                    </li>
+                    <li>
+						labor premature obstetric
+						<p>0 hits</p>
+                    </li>
+                    <li>
+						premature parturition
+						<p>0 hits</p>
+                    </li>
+                    <li>
+						premature labor finding
+						<p>0 hits</p>
+                    </li>
+                </ul>
+            </section>
+            <a href="#">Back to Top</a>
+
+            <section class="chart" id="wordclouds">
+				<h1 class="title">Word Cloud Comparison</h1>
+				<h1 class="title">Keywords matching C0022876</h1>
+				<p>Keywords matched against concept. Word size represents frequency.</p>
+				<img src="../wordclouds/C0022876.specific.png" style="width:100%" alt="Specific Keywords">
+				<h1 class="title">Keywords co-occurring with C0022876</h1>
+				<p>Co-occurrence is measured at the document-level (i.e. Reddit submissions). Frequencies are normalized to account for keywords common to all CUIs.</p>
+				<img src="../wordclouds/C0022876.related.png" style="width:100%" alt="Related Keywords">				
+            </section>
+            <a href="#">Back to Top</a>
 
             <section class="chart" id="embeddings">
                 <h1 class="title">Embedding Space Comparison</h1>
-                <p>T-SNE comparison for word embeddings learned from medical domain (PubMed) and social media (Reddit) independently.</p>
-                <p>Pearson correlation for union of top 10% of neighbors: <!-- CORR_VALUE --></p>
+                <p>T-SNE comparison for word embeddings learned from medical domain (EuroPMC) and social media (Reddit) independently.</p>
+                <p>Pearson correlation for union of closest 1000 neighbors: <strong>0.370</strong></p>
                 <div class="iframe-container">
                     <iframe src="http://danlou.github.io/medlinker-social/scatter/C0022876.html"></iframe>
                 </div>
             </section>
+            <a href="#">Back to Top</a>
 
-			<section class="chart-links" id="hits">
-                <h1 class="title">Hits per UMLS Alias on Social Corpus</h1>
-                <ul>
-                    <!-- ALIAS_LIST -->
+            <section class="chart-links" id="stys">
+				<h1 class="title">Nearest Neighbors by Semantic Type</h1>
+				<p>Most similar concepts in each of the selected UMLS semantic types. Based on concept embeddings from social corpus.</p>
+				<br>
+               <h1 class="title">T046 (Pathologic Function)</h1>
+               <ul>
                     <li>
-						infant
-						<p>28,000 hits</p>
+                       C0022876
+                       <p>Early labor</p>
+                       <p>1.000 Similarity</p>
+                    </li>
+                    <li>
+                       C0151526
+                       <p>Pre term</p>
+                       <p>0.917 Similarity</p>
+                    </li>
+                    <li>
+                       C0085598
+                       <p>False labor</p>
+                       <p>0.848 Similarity</p>
+                    </li>
+                    <li>
+                       C0152154
+                       <p>Labor long</p>
+                       <p>0.838 Similarity</p>
+                    </li>
+                    <li>
+                       C0729264
+                       <p>Preterm premature rupture membrane</p>
+                       <p>0.836 Similarity</p>
+                    </li>
+                    <li>
+                       C0015944
+                       <p>Pregnancy prom</p>
+                       <p>0.799 Similarity</p>
+                    </li>
+                    <li>
+                       C0269810
+                       <p>Sepsis during labor</p>
+                       <p>0.775 Similarity</p>
+                    </li>
+                    <li>
+                       C0473390
+                       <p>Threatened preterm labor</p>
+                       <p>0.755 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T047 (Disease or Syndrome)</h1>
+               <ul>
+                    <li>
+                       C0231341
+                       <p>Aging premature</p>
+                       <p>0.818 Similarity</p>
+                    </li>
+                    <li>
+                       C0473498
+                       <p>Ruptured uterus before labor</p>
+                       <p>0.772 Similarity</p>
+                    </li>
+                    <li>
+                       C0033036
+                       <p>Atrial premature contractions</p>
+                       <p>0.744 Similarity</p>
+                    </li>
+                    <li>
+                       C0340464
+                       <p>Extrasystoles</p>
+                       <p>0.707 Similarity</p>
+                    </li>
+                    <li>
+                       C0745617
+                       <p>Fast labor</p>
+                       <p>0.691 Similarity</p>
+                    </li>
+                    <li>
+                       C0025322
+                       <p>Early menopause</p>
+                       <p>0.662 Similarity</p>
+                    </li>
+                    <li>
+                       C0948664
+                       <p>Imminent abortion</p>
+                       <p>0.620 Similarity</p>
+                    </li>
+                    <li>
+                       C0597854
+                       <p>Renin induced hypertension</p>
+                       <p>0.611 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T060 (Diagnostic Procedure)</h1>
+               <ul>
+                    <li>
+                       C0040862
+                       <p>Labor trial</p>
+                       <p>0.800 Similarity</p>
+                    </li>
+                    <li>
+                       C1578855
+                       <p>Monitoring labor</p>
+                       <p>0.663 Similarity</p>
+                    </li>
+                    <li>
+                       C0200068
+                       <p>Contractions stress test</p>
+                       <p>0.585 Similarity</p>
+                    </li>
+                    <li>
+                       C0200048
+                       <p>Vaginal exam</p>
+                       <p>0.577 Similarity</p>
+                    </li>
+                    <li>
+                       C0206521
+                       <p>Interventional ultrasound</p>
+                       <p>0.572 Similarity</p>
+                    </li>
+                    <li>
+                       C0033053
+                       <p>Prenatal diagnoses</p>
+                       <p>0.571 Similarity</p>
+                    </li>
+                    <li>
+                       C0199637
+                       <p>Heart rate monitoring</p>
+                       <p>0.534 Similarity</p>
+                    </li>
+                    <li>
+                       C0015945
+                       <p>Fetal monitoring</p>
+                       <p>0.531 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T079 (Temporal Concept)</h1>
+               <ul>
+                    <li>
+                       C2964377
+                       <p>Preterm time</p>
+                       <p>0.791 Similarity</p>
+                    </li>
+                    <li>
+                       C0022871
+                       <p>Labor first stage</p>
+                       <p>0.756 Similarity</p>
+                    </li>
+                    <li>
+                       C0022872
+                       <p>Second stage labour</p>
+                       <p>0.726 Similarity</p>
+                    </li>
+                    <li>
+                       C0016145
+                       <p>First born child</p>
+                       <p>0.642 Similarity</p>
+                    </li>
+                    <li>
+                       C0443252
+                       <p>Long term</p>
+                       <p>0.623 Similarity</p>
+                    </li>
+                    <li>
+                       C2826645
+                       <p>Birth day</p>
+                       <p>0.617 Similarity</p>
+                    </li>
+                    <li>
+                       C2985337
+                       <p>Relaxation time between uterine contractions</p>
+                       <p>0.586 Similarity</p>
+                    </li>
+                    <li>
+                       C0421451
+                       <p>Birthdate</p>
+                       <p>0.585 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T184 (Sign or Symptom)</h1>
+               <ul>
+                    <li>
+                       C2735340
+                       <p>Preterm labor symptoms</p>
+                       <p>0.788 Similarity</p>
+                    </li>
+                    <li>
+                       C0565619
+                       <p>Fetal distress labor</p>
+                       <p>0.761 Similarity</p>
+                    </li>
+                    <li>
+                       C1301639
+                       <p>Pain during labor delivery</p>
+                       <p>0.759 Similarity</p>
+                    </li>
+                    <li>
+                       C0474368
+                       <p>Laboring pain</p>
+                       <p>0.755 Similarity</p>
+                    </li>
+                    <li>
+                       C3494358
+                       <p>Prodromal sign</p>
+                       <p>0.734 Similarity</p>
+                    </li>
+                    <li>
+                       C3494359
+                       <p>Prodromal state</p>
+                       <p>0.714 Similarity</p>
+                    </li>
+                    <li>
+                       C3494360
+                       <p>Period prodromal</p>
+                       <p>0.682 Similarity</p>
+                    </li>
+                    <li>
+                       C2985326
+                       <p>Signs impending birth</p>
+                       <p>0.656 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T201 (Clinical Attribute)</h1>
+               <ul>
+                    <li>
+                       C0566679
+                       <p>Length labor</p>
+                       <p>0.758 Similarity</p>
+                    </li>
+                    <li>
+                       C1301668
+                       <p>Delivery time</p>
+                       <p>0.662 Similarity</p>
+                    </li>
+                    <li>
+                       C1286282
+                       <p>Birth outcomes</p>
+                       <p>0.611 Similarity</p>
+                    </li>
+                    <li>
+                       C1285995
+                       <p>Measure uterine contractions</p>
+                       <p>0.599 Similarity</p>
+                    </li>
+                    <li>
+                       C1286046
+                       <p>Labor pattern</p>
+                       <p>0.589 Similarity</p>
+                    </li>
+                    <li>
+                       C0233131
+                       <p>Intensity uterine contraction</p>
+                       <p>0.581 Similarity</p>
+                    </li>
+                    <li>
+                       C1286049
+                       <p>Aspect delivery</p>
+                       <p>0.549 Similarity</p>
+                    </li>
+                    <li>
+                       C0552443
+                       <p>Effacement</p>
+                       <p>0.544 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T100 (Age Group)</h1>
+               <ul>
+                    <li>
+                       C4048294
+                       <p>Preterm baby</p>
+                       <p>0.747 Similarity</p>
+                    </li>
+                    <li>
+                       C3494262
+                       <p>Extremely preterm infant</p>
+                       <p>0.711 Similarity</p>
+                    </li>
+                    <li>
+                       C4551581
+                       <p>Full term baby</p>
+                       <p>0.600 Similarity</p>
+                    </li>
+                    <li>
+                       C0021289
+                       <p>Newborn</p>
+                       <p>0.463 Similarity</p>
+                    </li>
+                    <li>
+                       C3825962
+                       <p>Middle aged women</p>
+                       <p>0.413 Similarity</p>
+                    </li>
+                    <li>
+                       C0682054
+                       <p>Mature adult</p>
+                       <p>0.399 Similarity</p>
+                    </li>
+                    <li>
+                       C0021270
+                       <p>Baby</p>
+                       <p>0.365 Similarity</p>
+                    </li>
+                    <li>
+                       C0680085
+                       <p>Early adulthood</p>
+                       <p>0.357 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T061 (Therapeutic or Preventive Procedure)</h1>
+               <ul>
+                    <li>
+                       C0259787
+                       <p>Induction labor</p>
+                       <p>0.729 Similarity</p>
+                    </li>
+                    <li>
+                       C0269704
+                       <p>Spontaneous vaginal breech birth</p>
+                       <p>0.728 Similarity</p>
+                    </li>
+                    <li>
+                       C0200066
+                       <p>Medical induction labor</p>
+                       <p>0.711 Similarity</p>
+                    </li>
+                    <li>
+                       C0269694
+                       <p>Normal birth</p>
+                       <p>0.694 Similarity</p>
+                    </li>
+                    <li>
+                       C0404325
+                       <p>Induction delivery procedures</p>
+                       <p>0.660 Similarity</p>
+                    </li>
+                    <li>
+                       C0011209
+                       <p>Delivery</p>
+                       <p>0.654 Similarity</p>
+                    </li>
+                    <li>
+                       C0404381
+                       <p>Delivery placenta</p>
+                       <p>0.639 Similarity</p>
+                    </li>
+                    <li>
+                       C0559916
+                       <p>Water birth delivery</p>
+                       <p>0.637 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T032 (Organism Attribute)</h1>
+               <ul>
+                    <li>
+                       C0805393
+                       <p>Breathing spontaneous</p>
+                       <p>0.662 Similarity</p>
+                    </li>
+                    <li>
+                       C4086849
+                       <p>Sex at birth</p>
+                       <p>0.579 Similarity</p>
+                    </li>
+                    <li>
+                       C0017504
+                       <p>Gestational age</p>
+                       <p>0.555 Similarity</p>
+                    </li>
+                    <li>
+                       C0005612
+                       <p>Weight baby</p>
+                       <p>0.548 Similarity</p>
+                    </li>
+                    <li>
+                       C1954788
+                       <p>Gestational age weeks</p>
+                       <p>0.519 Similarity</p>
+                    </li>
+                    <li>
+                       C0751992
+                       <p>Fetal weight</p>
+                       <p>0.463 Similarity</p>
+                    </li>
+                    <li>
+                       C0001779
+                       <p>Age</p>
+                       <p>0.438 Similarity</p>
+                    </li>
+                    <li>
+                       C0026578
+                       <p>Mosaicism</p>
+                       <p>0.429 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T037 (Injury or Poisoning)</h1>
+               <ul>
+                    <li>
+                       C3203359
+                       <p>Ruptures</p>
+                       <p>0.657 Similarity</p>
+                    </li>
+                    <li>
+                       C0269858
+                       <p>Traumatic lesion during delivery</p>
+                       <p>0.653 Similarity</p>
+                    </li>
+                    <li>
+                       C0005604
+                       <p>Traumatic birth</p>
+                       <p>0.651 Similarity</p>
+                    </li>
+                    <li>
+                       C0730592
+                       <p>Vulval tear during delivery</p>
+                       <p>0.614 Similarity</p>
+                    </li>
+                    <li>
+                       C0417108
+                       <p>Jump from burning hospital</p>
+                       <p>0.589 Similarity</p>
+                    </li>
+                    <li>
+                       C1959898
+                       <p>Traumatic injury during pregnancy</p>
+                       <p>0.579 Similarity</p>
+                    </li>
+                    <li>
+                       C0007851
+                       <p>Cervical tear</p>
+                       <p>0.564 Similarity</p>
+                    </li>
+                    <li>
+                       C0405244
+                       <p>Tearing vaginal</p>
+                       <p>0.539 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T042 (Organ or Tissue Function)</h1>
+               <ul>
+                    <li>
+                       C2753527
+                       <p>Heart induction</p>
+                       <p>0.634 Similarity</p>
+                    </li>
+                    <li>
+                       C1325917
+                       <p>Organ induction</p>
+                       <p>0.629 Similarity</p>
+                    </li>
+                    <li>
+                       C4250378
+                       <p>Neural induction</p>
+                       <p>0.622 Similarity</p>
+                    </li>
+                    <li>
+                       C0079103
+                       <p>Cervical dilation</p>
+                       <p>0.598 Similarity</p>
+                    </li>
+                    <li>
+                       C0042130
+                       <p>Uterine contractions</p>
+                       <p>0.594 Similarity</p>
+                    </li>
+                    <li>
+                       C0032058
+                       <p>Placentation</p>
+                       <p>0.567 Similarity</p>
+                    </li>
+                    <li>
+                       C0027045
+                       <p>Heart beating</p>
+                       <p>0.559 Similarity</p>
+                    </li>
+                    <li>
+                       C0522026
+                       <p>Lengthening contraction</p>
+                       <p>0.555 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T048 (Mental or Behavioral Dysfunction)</h1>
+               <ul>
+                    <li>
+                       C0522187
+                       <p>Fear childbirth</p>
+                       <p>0.612 Similarity</p>
+                    </li>
+                    <li>
+                       C0338927
+                       <p>Hospitalism</p>
+                       <p>0.566 Similarity</p>
+                    </li>
+                    <li>
+                       C0038436
+                       <p>Ptsd</p>
+                       <p>0.559 Similarity</p>
+                    </li>
+                    <li>
+                       C0232600
+                       <p>Making self sick</p>
+                       <p>0.546 Similarity</p>
+                    </li>
+                    <li>
+                       C0038441
+                       <p>Stress disorder</p>
+                       <p>0.490 Similarity</p>
+                    </li>
+                    <li>
+                       C0563172
+                       <p>Dangerous plans</p>
+                       <p>0.489 Similarity</p>
+                    </li>
+                    <li>
+                       C0003537
+                       <p>Losing words</p>
+                       <p>0.480 Similarity</p>
+                    </li>
+                    <li>
+                       C0233702
+                       <p>Fear pain</p>
+                       <p>0.479 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T059 (Laboratory Procedure)</h1>
+               <ul>
+                    <li>
+                       C1295143
+                       <p>Fetal fibronectin test</p>
+                       <p>0.593 Similarity</p>
+                    </li>
+                    <li>
+                       C0005729
+                       <p>Bleeding time</p>
+                       <p>0.521 Similarity</p>
+                    </li>
+                    <li>
+                       C0200896
+                       <p>Cytogenetic studies</p>
+                       <p>0.504 Similarity</p>
+                    </li>
+                    <li>
+                       C0026040
+                       <p>Sectionings thin</p>
+                       <p>0.492 Similarity</p>
+                    </li>
+                    <li>
+                       C0368930
+                       <p>Clotting time</p>
+                       <p>0.490 Similarity</p>
+                    </li>
+                    <li>
+                       C0851081
+                       <p>Progesterone test</p>
+                       <p>0.470 Similarity</p>
+                    </li>
+                    <li>
+                       C0850355
+                       <p>Pregnancy blood test</p>
+                       <p>0.465 Similarity</p>
+                    </li>
+                    <li>
+                       C0023901
+                       <p>Liver tests</p>
+                       <p>0.458 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T023 (Body Part, Organ, or Organ Component)</h1>
+               <ul>
+                    <li>
+                       C0007874
+                       <p>Cervix</p>
+                       <p>0.586 Similarity</p>
+                    </li>
+                    <li>
+                       C1267666
+                       <p>Cervix part</p>
+                       <p>0.583 Similarity</p>
+                    </li>
+                    <li>
+                       C0042149
+                       <p>Uterus</p>
+                       <p>0.564 Similarity</p>
+                    </li>
+                    <li>
+                       C1268155
+                       <p>Placenta part</p>
+                       <p>0.559 Similarity</p>
+                    </li>
+                    <li>
+                       C0227828
+                       <p>Cervix wall</p>
+                       <p>0.555 Similarity</p>
+                    </li>
+                    <li>
+                       C0226958
+                       <p>Posterior tongue</p>
+                       <p>0.532 Similarity</p>
+                    </li>
+                    <li>
+                       C0501817
+                       <p>First cervical nerve</p>
+                       <p>0.530 Similarity</p>
+                    </li>
+                    <li>
+                       C1268107
+                       <p>Lung part</p>
+                       <p>0.527 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T019 (Congenital Abnormality)</h1>
+               <ul>
+                    <li>
+                       C0266393
+                       <p>Uterus didelphys</p>
+                       <p>0.583 Similarity</p>
+                    </li>
+                    <li>
+                       C0000768
+                       <p>Birth defect</p>
+                       <p>0.544 Similarity</p>
+                    </li>
+                    <li>
+                       C0266387
+                       <p>Bicornuate uterus</p>
+                       <p>0.536 Similarity</p>
+                    </li>
+                    <li>
+                       C0266383
+                       <p>Abnormality uterus</p>
+                       <p>0.536 Similarity</p>
+                    </li>
+                    <li>
+                       C0432185
+                       <p>Absent muscles since birth</p>
+                       <p>0.528 Similarity</p>
+                    </li>
+                    <li>
+                       C0266389
+                       <p>Unicornuate uterus</p>
+                       <p>0.516 Similarity</p>
+                    </li>
+                    <li>
+                       C0018798
+                       <p>Heart defect</p>
+                       <p>0.513 Similarity</p>
+                    </li>
+                    <li>
+                       C0152240
+                       <p>Septate uterus</p>
+                       <p>0.501 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T101 (Patient or Disabled Group)</h1>
+               <ul>
+                    <li>
+                       C0233363
+                       <p>Monoamniotic twins</p>
+                       <p>0.581 Similarity</p>
+                    </li>
+                    <li>
+                       C0008098
+                       <p>Child hospitalized</p>
+                       <p>0.544 Similarity</p>
+                    </li>
+                    <li>
+                       C0871503
+                       <p>Dying patients</p>
+                       <p>0.540 Similarity</p>
+                    </li>
+                    <li>
+                       C0021562
+                       <p>Inpatient</p>
+                       <p>0.511 Similarity</p>
+                    </li>
+                    <li>
+                       C1516213
+                       <p>Cancer patient</p>
+                       <p>0.487 Similarity</p>
+                    </li>
+                    <li>
+                       C0029921
+                       <p>Outpatient</p>
+                       <p>0.429 Similarity</p>
+                    </li>
+                    <li>
+                       C0683995
+                       <p>Drug exposed child</p>
+                       <p>0.428 Similarity</p>
+                    </li>
+                    <li>
+                       C1516231
+                       <p>Cancer survivor</p>
+                       <p>0.428 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T067 (Phenomenon or Process)</h1>
+               <ul>
+                    <li>
+                       C0023983
+                       <p>Long term effects</p>
+                       <p>0.576 Similarity</p>
+                    </li>
+                    <li>
+                       C0677038
+                       <p>Increase pressure</p>
+                       <p>0.500 Similarity</p>
+                    </li>
+                    <li>
+                       C0337240
+                       <p>Fall while being carried</p>
+                       <p>0.483 Similarity</p>
+                    </li>
+                    <li>
+                       C2986841
+                       <p>Binding potential</p>
+                       <p>0.451 Similarity</p>
+                    </li>
+                    <li>
+                       C0023670
+                       <p>Events life change</p>
+                       <p>0.440 Similarity</p>
+                    </li>
+                    <li>
+                       C0013956
+                       <p>Emergency</p>
+                       <p>0.430 Similarity</p>
+                    </li>
+                    <li>
+                       C0302131
+                       <p>Ejection</p>
+                       <p>0.418 Similarity</p>
+                    </li>
+                    <li>
+                       C0563547
+                       <p>Pressure change</p>
+                       <p>0.417 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T031 (Body Substance)</h1>
+               <ul>
+                    <li>
+                       C0392908
+                       <p>Secretion vaginal</p>
+                       <p>0.572 Similarity</p>
+                    </li>
+                    <li>
+                       C3532405
+                       <p>Swab from placenta</p>
+                       <p>0.522 Similarity</p>
+                    </li>
+                    <li>
+                       C0238626
+                       <p>Amniotic meconium</p>
+                       <p>0.502 Similarity</p>
+                    </li>
+                    <li>
+                       C0439057
+                       <p>Early morning urine</p>
+                       <p>0.488 Similarity</p>
+                    </li>
+                    <li>
+                       C0007806
+                       <p>Spinal fluid</p>
+                       <p>0.484 Similarity</p>
+                    </li>
+                    <li>
+                       C3496630
+                       <p>Swab from uterus</p>
+                       <p>0.480 Similarity</p>
+                    </li>
+                    <li>
+                       C0002638
+                       <p>Amniotic fluid</p>
+                       <p>0.466 Similarity</p>
+                    </li>
+                    <li>
+                       C1446336
+                       <p>Multiple plaques</p>
+                       <p>0.457 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T049 (Cell or Molecular Dysfunction)</h1>
+               <ul>
+                    <li>
+                       C4725191
+                       <p>Stop lost</p>
+                       <p>0.567 Similarity</p>
+                    </li>
+                    <li>
+                       C0544885
+                       <p>Stop gain</p>
+                       <p>0.470 Similarity</p>
+                    </li>
+                    <li>
+                       C1705285
+                       <p>Mutated</p>
+                       <p>0.435 Similarity</p>
+                    </li>
+                    <li>
+                       C0002938
+                       <p>Aneuploidy</p>
+                       <p>0.430 Similarity</p>
+                    </li>
+                    <li>
+                       C0008625
+                       <p>Chromosomal abnormality</p>
+                       <p>0.409 Similarity</p>
+                    </li>
+                    <li>
+                       C0041107
+                       <p>Trisomy</p>
+                       <p>0.402 Similarity</p>
+                    </li>
+                    <li>
+                       C0008628
+                       <p>Del</p>
+                       <p>0.390 Similarity</p>
+                    </li>
+                    <li>
+                       C0040715
+                       <p>Translocation</p>
+                       <p>0.345 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T005 (Virus)</h1>
+               <ul>
+                    <li>
+                       C3743464
+                       <p>Mycobacteriophage whirlwind</p>
+                       <p>0.549 Similarity</p>
+                    </li>
+                    <li>
+                       C1220459
+                       <p>Hart park group</p>
+                       <p>0.500 Similarity</p>
+                    </li>
+                    <li>
+                       C5058350
+                       <p>Fairfax lookout virus</p>
+                       <p>0.468 Similarity</p>
+                    </li>
+                    <li>
+                       C4415400
+                       <p>Phage wrath</p>
+                       <p>0.435 Similarity</p>
+                    </li>
+                    <li>
+                       C0205939
+                       <p>Cold virus common</p>
+                       <p>0.433 Similarity</p>
+                    </li>
+                    <li>
+                       C3768023
+                       <p>Mycobacteriophage conspiracy</p>
+                       <p>0.423 Similarity</p>
+                    </li>
+                    <li>
+                       C0086776
+                       <p>Parvovirus</p>
+                       <p>0.414 Similarity</p>
+                    </li>
+                    <li>
+                       C4433204
+                       <p>King virus</p>
+                       <p>0.413 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T190 (Anatomical Abnormality)</h1>
+               <ul>
+                    <li>
+                       C0269852
+                       <p>Previa vasa</p>
+                       <p>0.547 Similarity</p>
+                    </li>
+                    <li>
+                       C0009918
+                       <p>Contraction joint</p>
+                       <p>0.530 Similarity</p>
+                    </li>
+                    <li>
+                       C4025734
+                       <p>Anomaly scalp</p>
+                       <p>0.507 Similarity</p>
+                    </li>
+                    <li>
+                       C4732742
+                       <p>Hole center heart</p>
+                       <p>0.498 Similarity</p>
+                    </li>
+                    <li>
+                       C3887590
+                       <p>Stricture ureter</p>
+                       <p>0.491 Similarity</p>
+                    </li>
+                    <li>
+                       C0269185
+                       <p>Tipped uterus</p>
+                       <p>0.465 Similarity</p>
+                    </li>
+                    <li>
+                       C0266785
+                       <p>Umbilical cord issue</p>
+                       <p>0.463 Similarity</p>
+                    </li>
+                    <li>
+                       C0332447
+                       <p>Anomaly</p>
+                       <p>0.428 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T034 (Laboratory or Test Result)</h1>
+               <ul>
+                    <li>
+                       C0588465
+                       <p>Sperm forward progression</p>
+                       <p>0.539 Similarity</p>
+                    </li>
+                    <li>
+                       C0240802
+                       <p>Positive pregnancy test</p>
+                       <p>0.505 Similarity</p>
+                    </li>
+                    <li>
+                       C0427777
+                       <p>Pregnancy results tests</p>
+                       <p>0.482 Similarity</p>
+                    </li>
+                    <li>
+                       C5206315
+                       <p>Nse positive</p>
+                       <p>0.480 Similarity</p>
+                    </li>
+                    <li>
+                       C3898879
+                       <p>Triple positive</p>
+                       <p>0.477 Similarity</p>
+                    </li>
+                    <li>
+                       C5201036
+                       <p>Low platelets</p>
+                       <p>0.476 Similarity</p>
+                    </li>
+                    <li>
+                       C2266672
+                       <p>Clotting time finding</p>
+                       <p>0.469 Similarity</p>
+                    </li>
+                    <li>
+                       C0427780
+                       <p>Negative pregnancy test</p>
+                       <p>0.463 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T200 (Clinical Drug)</h1>
+               <ul>
+                    <li>
+                       C3216620
+                       <p>Progesterone vaginal product</p>
+                       <p>0.539 Similarity</p>
+                    </li>
+                    <li>
+                       C3218395
+                       <p>Papain pill</p>
+                       <p>0.514 Similarity</p>
+                    </li>
+                    <li>
+                       C0307304
+                       <p>Pitocin injection</p>
+                       <p>0.500 Similarity</p>
+                    </li>
+                    <li>
+                       C1247002
+                       <p>Misoprostol oral tablet</p>
+                       <p>0.489 Similarity</p>
+                    </li>
+                    <li>
+                       C5222490
+                       <p>Progesterone injection</p>
+                       <p>0.471 Similarity</p>
+                    </li>
+                    <li>
+                       C1247687
+                       <p>Progesterone suppositories vaginal</p>
+                       <p>0.469 Similarity</p>
+                    </li>
+                    <li>
+                       C4048176
+                       <p>Oxytocin injection</p>
+                       <p>0.469 Similarity</p>
+                    </li>
+                    <li>
+                       C1163679
+                       <p>Injections sterile water</p>
+                       <p>0.422 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T074 (Medical Device)</h1>
+               <ul>
+                    <li>
+                       C3878737
+                       <p>Uternine contraction monitor internal</p>
+                       <p>0.533 Similarity</p>
+                    </li>
+                    <li>
+                       C0043305
+                       <p>Intensifying screen xray</p>
+                       <p>0.519 Similarity</p>
+                    </li>
+                    <li>
+                       C0180647
+                       <p>Internal fetal heart rate monitoring</p>
+                       <p>0.489 Similarity</p>
+                    </li>
+                    <li>
+                       C0016533
+                       <p>Forceps</p>
+                       <p>0.477 Similarity</p>
+                    </li>
+                    <li>
+                       C0013962
+                       <p>Emergency medical tag</p>
+                       <p>0.472 Similarity</p>
+                    </li>
+                    <li>
+                       C0179850
+                       <p>Birthing chair</p>
+                       <p>0.461 Similarity</p>
+                    </li>
+                    <li>
+                       C0593622
+                       <p>Home pregnancy test</p>
+                       <p>0.457 Similarity</p>
+                    </li>
+                    <li>
+                       C0462567
+                       <p>Ring suppository</p>
+                       <p>0.451 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T039 (Physiologic Function)</h1>
+               <ul>
+                    <li>
+                       C0599423
+                       <p>Joint stress</p>
+                       <p>0.528 Similarity</p>
+                    </li>
+                    <li>
+                       C0026820
+                       <p>Muscle contraction</p>
+                       <p>0.502 Similarity</p>
+                    </li>
+                    <li>
+                       C0743925
+                       <p>Fetal growth</p>
+                       <p>0.490 Similarity</p>
+                    </li>
+                    <li>
+                       C0025320
+                       <p>Change</p>
+                       <p>0.458 Similarity</p>
+                    </li>
+                    <li>
+                       C0442695
+                       <p>Bearing down</p>
+                       <p>0.450 Similarity</p>
+                    </li>
+                    <li>
+                       C2256369
+                       <p>Heart process</p>
+                       <p>0.447 Similarity</p>
+                    </li>
+                    <li>
+                       C0035203
+                       <p>Ventilation</p>
+                       <p>0.441 Similarity</p>
+                    </li>
+                    <li>
+                       C0149784
+                       <p>Reaction stress</p>
+                       <p>0.427 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T018 (Embryonic Structure)</h1>
+               <ul>
+                    <li>
+                       C0032043
+                       <p>Placenta</p>
+                       <p>0.524 Similarity</p>
+                    </li>
+                    <li>
+                       C0553522
+                       <p>Cord placenta umbilical</p>
+                       <p>0.511 Similarity</p>
+                    </li>
+                    <li>
+                       C0002630
+                       <p>Amniotic</p>
+                       <p>0.508 Similarity</p>
+                    </li>
+                    <li>
+                       C1278988
+                       <p>Entire placenta</p>
+                       <p>0.500 Similarity</p>
+                    </li>
+                    <li>
+                       C0553498
+                       <p>Gestational sac</p>
+                       <p>0.496 Similarity</p>
+                    </li>
+                    <li>
+                       C0015935
+                       <p>Fetal heart</p>
+                       <p>0.493 Similarity</p>
+                    </li>
+                    <li>
+                       C0440731
+                       <p>Fetal brain</p>
+                       <p>0.483 Similarity</p>
+                    </li>
+                    <li>
+                       C0008508
+                       <p>Chorionic villi</p>
+                       <p>0.457 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T041 (Mental Process)</h1>
+               <ul>
+                    <li>
+                       C0596475
+                       <p>Early experience</p>
+                       <p>0.499 Similarity</p>
+                    </li>
+                    <li>
+                       C0015726
+                       <p>Scared</p>
+                       <p>0.478 Similarity</p>
+                    </li>
+                    <li>
+                       C4280069
+                       <p>Positive thinking</p>
+                       <p>0.473 Similarity</p>
+                    </li>
+                    <li>
+                       C0150035
+                       <p>Anticipatory grief</p>
+                       <p>0.470 Similarity</p>
+                    </li>
+                    <li>
+                       C0282124
+                       <p>Near death experience</p>
+                       <p>0.468 Similarity</p>
+                    </li>
+                    <li>
+                       C0424134
+                       <p>Negative thinking</p>
+                       <p>0.458 Similarity</p>
+                    </li>
+                    <li>
+                       C1999057
+                       <p>Assimilation</p>
+                       <p>0.451 Similarity</p>
+                    </li>
+                    <li>
+                       C0025265
+                       <p>Short term memory</p>
+                       <p>0.448 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T054 (Social Behavior)</h1>
+               <ul>
+                    <li>
+                       C0582101
+                       <p>Talking about dying</p>
+                       <p>0.488 Similarity</p>
+                    </li>
+                    <li>
+                       C0237581
+                       <p>Animal division labor</p>
+                       <p>0.471 Similarity</p>
+                    </li>
+                    <li>
+                       C0028658
+                       <p>Nurse patient</p>
+                       <p>0.470 Similarity</p>
+                    </li>
+                    <li>
+                       C0815201
+                       <p>Couple relations</p>
+                       <p>0.470 Similarity</p>
+                    </li>
+                    <li>
+                       C0422386
+                       <p>Patient suing doctor finding</p>
+                       <p>0.448 Similarity</p>
+                    </li>
+                    <li>
+                       C0019421
+                       <p>Straight</p>
+                       <p>0.440 Similarity</p>
+                    </li>
+                    <li>
+                       C1319178
+                       <p>Coping family</p>
+                       <p>0.435 Similarity</p>
+                    </li>
+                    <li>
+                       C0679997
+                       <p>Premarital sex</p>
+                       <p>0.428 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T007 (Bacterium)</h1>
+               <ul>
+                    <li>
+                       C0018154
+                       <p>Gram positive bacteria</p>
+                       <p>0.453 Similarity</p>
+                    </li>
+                    <li>
+                       C0995648
+                       <p>Genus quinella</p>
+                       <p>0.421 Similarity</p>
+                    </li>
+                    <li>
+                       C0579233
+                       <p>Group b strep</p>
+                       <p>0.404 Similarity</p>
+                    </li>
+                    <li>
+                       C0995705
+                       <p>Frankia</p>
+                       <p>0.395 Similarity</p>
+                    </li>
+                    <li>
+                       C4169658
+                       <p>Convivina</p>
+                       <p>0.358 Similarity</p>
+                    </li>
+                    <li>
+                       C0022828
+                       <p>L forms</p>
+                       <p>0.339 Similarity</p>
+                    </li>
+                    <li>
+                       C4277510
+                       <p>Expec</p>
+                       <p>0.336 Similarity</p>
+                    </li>
+                    <li>
+                       C1016530
+                       <p>Hallella</p>
+                       <p>0.334 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T044 (Molecular Function)</h1>
+               <ul>
+                    <li>
+                       C0887940
+                       <p>Gene arrangements</p>
+                       <p>0.451 Similarity</p>
+                    </li>
+                    <li>
+                       C1149528
+                       <p>Wishful thinking binding</p>
+                       <p>0.443 Similarity</p>
+                    </li>
+                    <li>
+                       C1152025
+                       <p>Docs</p>
+                       <p>0.435 Similarity</p>
+                    </li>
+                    <li>
+                       C1721104
+                       <p>Breaks dna</p>
+                       <p>0.432 Similarity</p>
+                    </li>
+                    <li>
+                       C2247516
+                       <p>Sgah</p>
+                       <p>0.413 Similarity</p>
+                    </li>
+                    <li>
+                       C1149397
+                       <p>Heartless ligand</p>
+                       <p>0.397 Similarity</p>
+                    </li>
+                    <li>
+                       C0369768
+                       <p>Oxygen saturation</p>
+                       <p>0.363 Similarity</p>
+                    </li>
+                    <li>
+                       C1749457
+                       <p>Ligands activity</p>
+                       <p>0.360 Similarity</p>
+                    </li>
+               </ul>
+               <h1 class="title">T195 (Antibiotic)</h1>
+               <ul>
+                    <li>
+                       C0003232
+                       <p>Antibiotics</p>
+                       <p>0.449 Similarity</p>
+                    </li>
+                    <li>
+                       C0723285
+                       <p>Septa</p>
+                       <p>0.407 Similarity</p>
+                    </li>
+                    <li>
+                       C0718575
+                       <p>Antibiotics ear</p>
+                       <p>0.391 Similarity</p>
+                    </li>
+                    <li>
+                       C0030842
+                       <p>Penicillin</p>
+                       <p>0.356 Similarity</p>
+                    </li>
+                    <li>
+                       C0002645
+                       <p>Amoxicillin</p>
+                       <p>0.333 Similarity</p>
+                    </li>
+                    <li>
+                       C0718950
+                       <p>Biomox</p>
+                       <p>0.321 Similarity</p>
+                    </li>
+                    <li>
+                       C0310367
+                       <p>Today</p>
+                       <p>0.283 Similarity</p>
+                    </li>
+                    <li>
+                       C0013090
+                       <p>Doxycycline</p>
+                       <p>0.279 Similarity</p>
+                    </li>
+               </ul>
+
+            </section>
+            <a href="#">Back to Top</a>
+
+            <section class="chart-links" id="related">
+				<h1 class="title">Related Analysed Concepts</h1>
+				<p>Most similar concepts from the group we report on. Based on concept embeddings from social corpus.</p>
+                <ul>
+
+                    <li>
+						<a href="./C0151526.html">C0151526</a>
+						<p>Pre term</p>
+						<p>0.917 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C3829315.html">C3829315</a>
+						<p>Late preterm birth</p>
+						<p>0.842 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C0728731.html">C0728731</a>
+						<p>Babies born premature</p>
+						<p>0.810 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C2735340.html">C2735340</a>
+						<p>Preterm labor symptoms</p>
+						<p>0.788 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C0269810.html">C0269810</a>
+						<p>Sepsis during labor</p>
+						<p>0.775 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C0473390.html">C0473390</a>
+						<p>Threatened preterm labor</p>
+						<p>0.755 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C4048294.html">C4048294</a>
+						<p>Preterm baby</p>
+						<p>0.747 Similarity</p>
+                    </li>
+                    <li>
+						<a href="./C3494262.html">C3494262</a>
+						<p>Extremely preterm infant</p>
+						<p>0.711 Similarity</p>
                     </li>
                 </ul>
             </section>
+            <a href="#">Back to Top</a>
 
         </ul>
-    </section>
+		<!-- Disclaimer: It's possible that social media contents displayed in this page might contain some offensive material. -->
+	</section>
 </article>
 </main>
 </body>
