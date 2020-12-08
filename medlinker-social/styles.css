@@ -123,6 +123,12 @@ article h1 > strong {
 .fa-github {
 	margin-right: 0.25em;
 }
+.fa-book {
+	margin-right: 0.25em;
+}
+.fa-list {
+	margin-right: 0.25em;
+}
 section {
 	margin: 3.2em 0;
 	display: flex;
